@@ -1,4 +1,12 @@
-import { Nav } from "../components";
+import {
+  Nav,
+  Header,
+  About,
+  Banner,
+  Contact,
+  Services,
+  Work,
+} from "../components";
 
 export default function Home() {
   return (
@@ -10,6 +18,12 @@ export default function Home() {
       />
       <div className="bg-gray-900 bg-no-repeat bg-cover overflow-hidden">
         <Nav />
+        <Header />
+        <Banner />
+        <About />
+        <Services />
+        <Work />
+        <Contact />
         <div className="h-[4000px]"></div>
       </div>
     </>
