@@ -12,7 +12,7 @@ import { fadeIn } from "../pages/variants.js";
 export default function Banner() {
   return (
     <section
-      className="min-h-[90vh] lg:min-h-[78vh] flex items-center"
+      className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
       id="home"
     >
       <div className="container mx-auto">
@@ -53,30 +53,53 @@ export default function Banner() {
                 repeat={Infinity}
               />
             </motion.div>
-            <p className="mb-8 max-w-lg mx-auto lg:mx-0">
+            <motion.p
+              variants={fadeIn("up", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="mb-8 max-w-lg mx-auto lg:mx-0"
+            >
               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
               Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.
-            </p>
-            <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
+            </motion.p>
+            <motion.div
+              variants={fadeIn("up", 0.6)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
+            >
               <button className="btn btn-lg">Contact Me</button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>
-            </div>
+            </motion.div>
             {/* socials */}
-            <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-400 text-3xl lg:max">
+            <motion.div
+              variants={fadeIn("up", 0.7)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-400 text-4xl lg:max"
+            >
               <a href="#">
                 <FaLinkedin />
               </a>
               <a href="">
                 <FaGithub />
               </a>
-            </div>
+            </motion.div>
           </div>
           {/* image */}
-          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto">
+          <motion.div
+            variants={fadeIn("down", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto"
+          >
             <Image src={Avatar} alt="avatar" className="rounded-3xl " />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
