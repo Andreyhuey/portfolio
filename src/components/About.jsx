@@ -6,6 +6,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 // motion
 import { motion } from "framer-motion";
+import ab from "../assets/about.png";
 // variant
 import { fadeIn } from "../pages/variants.js";
 
@@ -17,9 +18,23 @@ export default function About() {
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
           {/* img */}
-          <div className="flex-1 mix-blend-lighten bg-top bg-contain"></div>
+          <motion.div
+            variants={fadeIn("right", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="lg:flex-1 mix-blend-lighten"
+          >
+            <Image src={ab} className="" />
+          </motion.div>
           {/* text */}
-          <div className="flex-1">
+          <motion.div
+            variants={fadeIn("left", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex-1"
+          >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
               I'm a Freelance Front-end Developer with over 15 months of
@@ -33,7 +48,9 @@ export default function About() {
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 justify-center md:justify-start lg:justify-start">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={15} duration={3} /> : null}
+                  {!inView || inView ? (
+                    <CountUp start={0} end={15} duration={3} />
+                  ) : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Months of <br />
@@ -42,7 +59,9 @@ export default function About() {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}
+                  {!inView || inView ? (
+                    <CountUp start={0} end={10} duration={3} />
+                  ) : null}
                   {"+"}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -53,7 +72,9 @@ export default function About() {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={6} duration={3} /> : null}
+                  {!inView || inView ? (
+                    <CountUp start={0} end={6} duration={3} />
+                  ) : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satisfied <br />
@@ -67,7 +88,7 @@ export default function About() {
                 My Portfolio
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
