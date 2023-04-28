@@ -24,9 +24,9 @@ export default function Home() {
         <Header />
         <Banner />
         <About />
-        {/* <Services />
+        <Services />
         <Work />
-        <Contact /> */}
+        <Contact />
         <div className="h-[4000px]"></div>
       </div>
     </>
