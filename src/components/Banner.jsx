@@ -81,13 +81,13 @@ export default function Banner() {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-400 text-4xl lg:max"
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-400  lg:max"
             >
               <a href="#">
-                <FaLinkedin />
+                <FaLinkedin className="text-4xl" />
               </a>
               <a href="">
-                <FaGithub />
+                <FaGithub className="text-4xl" />
               </a>
             </motion.div>
           </div>
