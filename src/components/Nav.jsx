@@ -4,25 +4,26 @@ import { useTheme } from "next-themes";
 // icons
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
-import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+// import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 // link
 import { Link } from "react-scroll";
 
 export default function Nav() {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
-  const [mounted, setMounted] = useState(false);
+  // Dark Mode Function
+  // const { systemTheme, theme, setTheme } = useTheme();
+  // const currentTheme = theme === "system" ? systemTheme : theme;
+  // const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  // useEffect(() => {
+  //   setMounted(true);
+  // }, []);
 
-  const HandleThemeSwitch = () => {
-    setTheme(currentTheme === "dark" ? "light" : "dark");
-  };
+  // const HandleThemeSwitch = () => {
+  //   setTheme(currentTheme === "dark" ? "light" : "dark");
+  // };
 
-  // Render null until the theme loads to avoid mismatch errors
-  if (!mounted) return null;
+  // // Render null until the theme loads to avoid mismatch errors
+  // if (!mounted) return null;
 
   return (
     <div>
@@ -76,13 +77,13 @@ export default function Nav() {
             >
               <BsChatSquare />
             </Link>
-            <button onClick={HandleThemeSwitch} className="text-2xl">
+            {/* <button onClick={HandleThemeSwitch} className="text-2xl">
               {currentTheme === "dark" ? (
                 <BsFillSunFill />
               ) : (
                 <BsFillMoonStarsFill />
               )}
-            </button>
+            </button> */}
           </div>
         </div>
       </nav>

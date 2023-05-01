@@ -12,7 +12,9 @@ import { fadeIn } from "../pages/variants.js";
 export default function Banner() {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
+      className="
+      min-h-[85vh] 
+      lg:min-h-[78vh] flex items-center"
       id="home"
     >
       <div className="container mx-auto">
@@ -58,7 +60,7 @@ export default function Banner() {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 font-semibold"
             >
               Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
               Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.
@@ -81,7 +83,7 @@ export default function Banner() {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-400  lg:max"
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-300 lg:max"
             >
               <a href="#">
                 <FaLinkedin className="text-4xl" />

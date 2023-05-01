@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 // motion
 import { motion } from "framer-motion";
-import ab from "../assets/about.png";
+import ab from "../assets/dev.jpg";
 // variant
 import { fadeIn } from "../pages/variants.js";
 
@@ -23,7 +23,7 @@ export default function About() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="lg:flex-1 mix-blend-lighten"
+            className="lg:flex-1"
           >
             <Image src={ab} className="" />
           </motion.div>
@@ -48,9 +48,7 @@ export default function About() {
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 justify-center md:justify-start lg:justify-start">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {!inView || inView ? (
-                    <CountUp start={0} end={15} duration={3} />
-                  ) : null}
+                  {<CountUp start={0} end={15} duration={3} />}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Months of <br />
