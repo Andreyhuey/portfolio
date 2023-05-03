@@ -41,7 +41,7 @@ export default function Nav() {
             >
               <BiHomeAlt />
             </Link>
-            <Link
+            {/* <Link
               to="about"
               activeClass="active"
               smooth={true}
@@ -49,7 +49,7 @@ export default function Nav() {
               className="cursor-pointer w-[60px] h-[60px]  flex items-center justify-center"
             >
               <BiUser />
-            </Link>
+            </Link> */}
             <Link
               to="services"
               activeClass="active"
