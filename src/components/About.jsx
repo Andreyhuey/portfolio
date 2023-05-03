@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 // motion
 import { motion } from "framer-motion";
-import ab from "../assets/dev.jpg";
+import ab from "../assets/dev.png";
 // variant
 import { fadeIn } from "../pages/variants.js";
 
@@ -14,7 +14,7 @@ export default function About() {
   const [ref, inView] = useInView({ threshold: 0.5 });
 
   return (
-    <section className="" ref={ref}>
+    <section className="section" ref={ref} id="about">
       <div className="container mx-auto my-auto">
         <div>
           <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
