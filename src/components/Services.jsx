@@ -26,10 +26,10 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="section" id="services">
+    <section className="section">
       <div className="container mx-auto">
         {/*  */}
-        <div>text</div>
+        <motion.div>text</motion.div>
         {/*  */}
         <div>Services</div>
       </div>
