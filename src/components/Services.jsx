@@ -14,27 +14,27 @@ import Image from "next/image";
 //  services data
 const services = [
   {
-    name: "UI/UX Design Translation",
+    name: "Design To Code",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus excepturi ",
+      "Translating UI/UX design's visual elements, layout, and user interactions into code to create a functional and visually appealing web interface.",
     link: "Learn More",
   },
   {
-    name: "API Creation & Consumption",
+    name: "API Integration",
     description:
-      "Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus ",
+      "Utilizing external application programming interfaces within web applications to leverage existing functionalities and data from other systems.",
     link: "Learn More",
   },
   {
     name: "State Management",
     description:
-      "Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus ",
+      "Managing and storing data used across different parts of a web application. Ensuring that all components have access to the most up-to-date and consistent data, enabling them to work together effectively.",
     link: "Learn More",
   },
   {
     name: "Technical Writing",
     description:
-      " Providing accurate, accessible, and easily understandable information to users, whether they are developers, end-users, or other stakeholders. ",
+      " Providing accurate, accessible, and easily understandable information to users, whether they are developers, end-users, or other stakeholders. i.e API documentation, Articles & technical blog posts",
     link: "Learn More",
   },
 ];
@@ -42,26 +42,25 @@ const services = [
 export default function Services() {
   return (
     <section className="section" id="services">
-      <div className="container mx-auto ">
-        <div className="flex flex-col lg:flex-row h-screen">
+      <div className="container mx-auto">
+        <div className="flex flex-col lg:flex-row h-auto">
           {/* text & image*/}
           <motion.div
             variants={fadeIn("right", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1
-            lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten
-            mb-12 lg:mb-0"
+            className="flex-1 justify-center items-center
+            mb-12"
           >
-            <h2 className="h2 text-accent mb-6">What I Do</h2>
+            <h2 className="h1 text-accent mb-6">What I Do</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Freelance Front-end Developer with over 3 Years of
-              experience.
+              I'm a Front-end Developer with over 3 Years of Freelance & 1 Year
+              of Professional Experience.
             </h3>
-            <div>
-              <Image src={ab} alt="ab" />
-            </div>
+            <Image src={ab} alt="ab" />
+            {/* <div className="mx-auto lg:justify-center lg:align-center ">
+            </div> */}
           </motion.div>
           {/* services */}
           <motion.div
@@ -78,7 +77,7 @@ export default function Services() {
                 const { name, description, link } = service;
                 return (
                   <div
-                    className="border-b border-white h-[146px] mb-[38px] flex"
+                    className="border-b border-white h-auto pb-3 mb-[38px] flex"
                     key={index}
                   >
                     <div className="max-w-[476px]">

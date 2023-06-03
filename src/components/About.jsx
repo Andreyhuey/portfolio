@@ -17,16 +17,16 @@ export default function About() {
 
   return (
     <section className="section" id="about">
-      <div className="container">
+      <div className="container mx-auto">
         <div>
-          <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20">
+          <div className="flex flex-col xs:flex xs:items-center xs:justify-center lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
             {/* img */}
             <motion.div
               variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="flex-1"
+              className="flex-1 justify-center items-center"
             >
               <Image src={ab} cover />
             </motion.div>
@@ -36,7 +36,7 @@ export default function About() {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="lg:flex-1 flex-1"
+              className="lg:flex-1 flex-1 my-10 items-center justify-center"
             >
               <h2 className="h2 text-accent">About me.</h2>
               <h3 className="h3 mb-4">

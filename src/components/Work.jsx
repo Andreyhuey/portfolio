@@ -10,7 +10,7 @@ import Img3 from "../assets/portfolio-img3.png";
 
 export default function Work() {
   return (
-    <section className="section my-20" id="work">
+    <section className="section" id="work">
       <div className="container mx-auto">
         <div>
           {/* text */}
