@@ -12,9 +12,8 @@ import Image from "next/image";
 export default function Banner() {
   return (
     <section
-      className="
-      min-h-[85vh] 
-      lg:min-h-[78vh] flex items-center"
+      className="section
+      "
       id="home"
     >
       <div className="container mx-auto">

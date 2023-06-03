@@ -16,19 +16,25 @@ const services = [
   {
     name: "UI/UX Design Translation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus excepturi ea reiciendis distinctio tempore quibusdam repudiandae odit. Laborum, similique ut",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus excepturi ",
     link: "Learn More",
   },
   {
     name: "API Creation & Consumption",
     description:
-      "Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus excepturi ea reiciendis distinctio tempore quibusdam repudiandae odit. Laborum, similique ut",
+      "Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus ",
     link: "Learn More",
   },
   {
     name: "State Management",
     description:
-      "Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus excepturi ea reiciendis distinctio tempore quibusdam repudiandae odit. Laborum, similique ut",
+      "Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui odio consectetur dolorum, nostrum, aperiam ipsa laudantium aliquam doloribus ",
+    link: "Learn More",
+  },
+  {
+    name: "Technical Writing",
+    description:
+      " Providing accurate, accessible, and easily understandable information to users, whether they are developers, end-users, or other stakeholders. ",
     link: "Learn More",
   },
 ];
@@ -53,9 +59,8 @@ export default function Services() {
               I'm a Freelance Front-end Developer with over 3 Years of
               experience.
             </h3>
-            <button className="btn btn-sm">See my work</button>
             <div>
-              <Image src={ab} alt="ab" cover />
+              <Image src={ab} alt="ab" />
             </div>
           </motion.div>
           {/* services */}
