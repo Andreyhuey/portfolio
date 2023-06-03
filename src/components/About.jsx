@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 // countup
@@ -8,14 +10,18 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import ab from "../assets/dev.png";
 // variant
-import { fadeIn } from "../pages/variants.js";
+import { fadeIn } from "../variants.js";
 
 export default function About() {
-  const [ref, inView] = useInView({ threshold: 0.5 });
+  // const [ref, inView] = useInView({ threshold: 0.5 });
 
   return (
-    <section className="section" ref={ref} id="about">
-      <div className="container mx-auto my-auto">
+    <section
+      className="section"
+      //  ref={ref}
+      id="about"
+    >
+      <div className="container m-auto mb-[3000px]">
         <div>
           <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
             {/* img */}
@@ -70,9 +76,7 @@ export default function About() {
                 </div>
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient">
-                    {!inView || inView ? (
-                      <CountUp start={0} end={6} duration={3} />
-                    ) : null}
+                    <CountUp start={0} end={6} duration={3} />
                   </div>
                   <div className="font-primary text-sm tracking-[2px]">
                     Satisfied <br />

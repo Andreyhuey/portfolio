@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Avatar from "../assets/avatar.jpeg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 // type animation
@@ -7,7 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 //  motion
 import { motion } from "framer-motion";
 // variants
-import { fadeIn } from "../pages/variants.js";
+import { fadeIn } from "../variants.js";
+import Image from "next/image";
 
 export default function Banner() {
   return (

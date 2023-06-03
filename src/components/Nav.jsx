@@ -1,33 +1,15 @@
-import React, { useState, useEffect } from "react";
-// theme
-import { useTheme } from "next-themes";
+"use client";
+
+import React from "react";
 // icons
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
-// import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-// link
 import { Link } from "react-scroll";
 
 export default function Nav() {
-  // Dark Mode Function
-  // const { systemTheme, theme, setTheme } = useTheme();
-  // const currentTheme = theme === "system" ? systemTheme : theme;
-  // const [mounted, setMounted] = useState(false);
-
-  // useEffect(() => {
-  //   setMounted(true);
-  // }, []);
-
-  // const HandleThemeSwitch = () => {
-  //   setTheme(currentTheme === "dark" ? "light" : "dark");
-  // };
-
-  // // Render null until the theme loads to avoid mismatch errors
-  // if (!mounted) return null;
-
   return (
     <div>
-      <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
+      <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden">
         <div className="container mx-auto">
           {/* nav inner */}
           <div className="w-full bg-black/30 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
@@ -41,7 +23,7 @@ export default function Nav() {
             >
               <BiHomeAlt />
             </Link>
-            {/* <Link
+            <Link
               to="about"
               activeClass="active"
               smooth={true}
@@ -49,7 +31,7 @@ export default function Nav() {
               className="cursor-pointer w-[60px] h-[60px]  flex items-center justify-center"
             >
               <BiUser />
-            </Link> */}
+            </Link>
             <Link
               to="services"
               activeClass="active"
@@ -77,13 +59,6 @@ export default function Nav() {
             >
               <BsChatSquare />
             </Link>
-            {/* <button onClick={HandleThemeSwitch} className="text-2xl">
-              {currentTheme === "dark" ? (
-                <BsFillSunFill />
-              ) : (
-                <BsFillMoonStarsFill />
-              )}
-            </button> */}
           </div>
         </div>
       </nav>

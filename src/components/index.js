@@ -1,7 +1,9 @@
-export { default as About } from "./About.jsx";
-export { default as Banner } from "./Banner.jsx";
-export { default as Contact } from "./Contact.jsx";
-export { default as Header } from "./Header.jsx";
-export { default as Nav } from "./Nav.jsx";
-export { default as Services } from "./Services.jsx";
-export { default as Work } from "./Work.jsx";
+import About from "./About";
+import Nav from "./Nav.jsx";
+import Banner from "./Banner.jsx";
+import Contact from "./Contact";
+import Header from "./Header.jsx";
+import Services from "./Services";
+import Work from "./Work";
+
+export { About, Nav, Banner, Contact, Header, Services, Work };
