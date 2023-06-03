@@ -17,7 +17,7 @@ export default function About() {
 
   return (
     <section className="section" id="about">
-      <div className="container mx-auto">
+      <div className="sm:container mx-auto">
         <div>
           <div className="flex flex-col xs:flex xs:items-center xs:justify-center lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
             {/* img */}

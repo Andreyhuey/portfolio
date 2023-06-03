@@ -42,11 +42,11 @@ const services = [
 export default function Services() {
   return (
     <section className="section" id="services">
-      <div className="container mx-auto">
+      <div className="sm:container mx-auto">
         <div className="flex flex-col lg:flex-row h-auto">
           {/* text & image*/}
           <motion.div
-            variants={fadeIn("right", 0.5)}
+            variants={fadeIn("right", 0.4)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
@@ -64,7 +64,7 @@ export default function Services() {
           </motion.div>
           {/* services */}
           <motion.div
-            variants={fadeIn("left", 0.5)}
+            variants={fadeIn("left", 0.4)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
