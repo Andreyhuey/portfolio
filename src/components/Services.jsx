@@ -58,7 +58,7 @@ export default function Services() {
               I'm a Front-end Developer with over 3 Years of Freelance & 1 Year
               of Professional Experience.
             </h3>
-            <Image src={ab} alt="ab" />
+            <Image src={ab} alt="about" />
             {/* <div className="mx-auto lg:justify-center lg:align-center ">
             </div> */}
           </motion.div>

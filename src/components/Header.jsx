@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-// images
-import Logo from "../assets/logo.svg";
 
 export default function Header() {
   return (

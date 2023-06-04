@@ -28,7 +28,7 @@ export default function About() {
               viewport={{ once: false, amount: 0.3 }}
               className="flex-1 justify-center items-center"
             >
-              <Image src={ab} cover />
+              <Image src={ab} alt="about" cover />
             </motion.div>
             {/* text */}
             <motion.div
