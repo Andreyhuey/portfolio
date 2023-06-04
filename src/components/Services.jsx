@@ -55,8 +55,8 @@ export default function Services() {
           >
             <h2 className="h1 text-accent mb-6">What I Do</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Front-end Developer with over 3 Years of Freelance & 1 Year
-              of Professional Experience.
+              I&apos;m a Front-end Developer with over 3 Years of Freelance & 1
+              Year of Professional Experience.
             </h3>
             <Image src={ab} alt="about" />
             {/* <div className="mx-auto lg:justify-center lg:align-center ">

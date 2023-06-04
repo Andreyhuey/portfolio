@@ -5,7 +5,7 @@ import Image from "next/image";
 // countup
 import CountUp from "react-countup";
 // intersection observer
-import { useInView } from "react-intersection-observer";
+// import { useInView } from "react-intersection-observer";
 // motion
 import { motion } from "framer-motion";
 import ab from "../assets/dev.png";
@@ -28,7 +28,7 @@ export default function About() {
               viewport={{ once: false, amount: 0.3 }}
               className="flex-1 justify-center items-center"
             >
-              <Image src={ab} alt="about" cover />
+              <Image src={ab} alt="about" />
             </motion.div>
             {/* text */}
             <motion.div
@@ -40,7 +40,7 @@ export default function About() {
             >
               <h2 className="h2 text-accent">About me.</h2>
               <h3 className="h3 mb-4">
-                I'm a Freelance Front-end Developer with over 15 months of
+                I&apos;m a Freelance Front-end Developer with over 15 months of
                 experience
               </h3>
               <p className="mb-6">
