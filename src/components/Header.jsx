@@ -10,7 +10,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* logo */}
           <a href="#">
-            <h2 className="text-3xl">CultureX</h2>
+            <h2 className="text-3xl">O.O</h2>
           </a>
           {/* button */}
           <button className="btn btn-sm">

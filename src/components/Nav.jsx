@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 
 export default function Nav() {
   return (
-    <div>
+    <div className="fixed">
       <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden">
         <div className="md:sm:container mx-auto">
           {/* nav inner */}
@@ -28,6 +28,7 @@ export default function Nav() {
               activeClass="active"
               smooth={true}
               spy={true}
+              offset={-200}
               className="cursor-pointer w-[60px] h-[60px]  flex items-center justify-center"
             >
               <BiUser />
@@ -37,6 +38,7 @@ export default function Nav() {
               activeClass="active"
               smooth={true}
               spy={true}
+              offset={-200}
               className="cursor-pointer w-[60px] h-[60px]  flex items-center justify-center"
             >
               <BsClipboardData />
@@ -46,6 +48,7 @@ export default function Nav() {
               activeClass="active"
               smooth={true}
               spy={true}
+              offset={-200}
               className="cursor-pointer w-[60px] h-[60px]  flex items-center justify-center"
             >
               <BsBriefcase />
@@ -55,6 +58,7 @@ export default function Nav() {
               activeClass="active"
               smooth={true}
               spy={true}
+              offset={-200}
               className="cursor-pointer w-[60px] h-[60px]  flex items-center justify-center"
             >
               <BsChatSquare />
