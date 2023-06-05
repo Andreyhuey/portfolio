@@ -99,13 +99,22 @@ export default function Banner() {
               <a
                 href="https://www.linkedin.com/in/oluwadara-ola-obaado-64b5511b4/"
                 target="_blank"
+                className="cursor-pointer"
               >
                 <FaLinkedin className="text-4xl" />
               </a>
-              <a href="https://github.com/andreyhuey" target="_blank">
+              <a
+                href="https://github.com/andreyhuey"
+                target="_blank"
+                className="cursor-pointer"
+              >
                 <FaGithub className="text-4xl" />
               </a>
-              <a href="https://twitter.com/andreyhuey" target="_blank">
+              <a
+                href="https://twitter.com/andreyhuey"
+                target="_blank"
+                className="cursor-pointer"
+              >
                 <FaTwitter className="text-4xl" />
               </a>
             </motion.div>

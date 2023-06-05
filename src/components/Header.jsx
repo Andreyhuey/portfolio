@@ -12,7 +12,7 @@ export default function Header() {
           {/* button */}
           <button className="btn btn-sm">
             <a
-              href="https://www.canva.com/design/DAFhcMCLaoI/c8ReyVAA5-t-faR9ebXOYQ/view?utm_content=DAFhcMCLaoI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              href="https://www.canva.com/design/DAFidbClCEA/J4gIc-1S6VBPARWVS41iRw/edit?utm_content=DAFidbClCEA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
               target="_blank"
             >
               Resume

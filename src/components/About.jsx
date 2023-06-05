@@ -42,7 +42,7 @@ export default function About() {
             >
               <h2 className="h2 text-accent">About me.</h2>
               <h3 className="h3 mb-4">
-                I&apos;m a frontend developer with over 3 years of experience
+                Turning design dreams into stunning web experiences.
               </h3>
               <p className="mb-6">
                 i am passionate about building aesthetically beautiful &
