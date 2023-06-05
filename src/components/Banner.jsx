@@ -27,12 +27,7 @@ export default function Banner() {
               viewport={{ once: false, amount: 0.7 }}
               className="text-[35px] font-bold leading-[0.8] lg:text-[90px] mb-1"
             >
-              OLUWADARA{" "}
-              <span>
-                OLA-OBAADO
-                {/* <i className="italic font-thin text-sm">A.K.A</i>{" "}
-              <b className="text-slate-400">Andreyhuey</b> */}
-              </span>
+              OLUWADARA <span>OLA-OBAADO</span>
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -61,8 +56,16 @@ export default function Banner() {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0 font-semibold"
             >
-              Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-              Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.
+              <p className="my-2">
+                Hello!, Welcome to my developer portfolio 🚀
+              </p>{" "}
+              <br />
+              <p>
+                Step into my world of code and creativity, where pixels come
+                alive and ideas turn into digital realities. I'm thrilled to
+                have you here, exploring my projects, skills, and passion for
+                technology.
+              </p>
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
