@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants.js";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
 export default function Banner() {
   return (
@@ -49,7 +50,7 @@ export default function Banner() {
                 repeat={Infinity}
               />
             </motion.div>
-            <motion.p
+            <motion.div
               variants={fadeIn("up", 0.5)}
               initial="hidden"
               whileInView={"show"}
@@ -66,7 +67,7 @@ export default function Banner() {
                 have you here, exploring my projects, skills, and passion for
                 technology.
               </p>
-            </motion.p>
+            </motion.div>
             <motion.div
               variants={fadeIn("up", 0.6)}
               initial="hidden"
@@ -74,10 +75,18 @@ export default function Banner() {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#" className="text-gradient btn-link">
+              <Link to="contact" smooth={true} spy={true} offset={-200}>
+                <button className="btn btn-lg">Contact Me</button>
+              </Link>
+              <Link
+                to="work"
+                smooth={true}
+                spy={true}
+                offset={-200}
+                className="text-gradient btn-link cursor-pointer"
+              >
                 My Portfolio
-              </a>
+              </Link>
             </motion.div>
             {/* socials */}
             <motion.div

@@ -8,9 +8,11 @@ import CountUp from "react-countup";
 // import { useInView } from "react-intersection-observer";
 // motion
 import { motion } from "framer-motion";
-import ab from "../assets/dev.png";
+import ab from "../assets/wave.png";
 // variant
 import { fadeIn } from "../variants.js";
+
+import { Link } from "react-scroll";
 
 export default function About() {
   // const [ref, inView] = useInView({ threshold: 0.5 });
@@ -40,18 +42,19 @@ export default function About() {
             >
               <h2 className="h2 text-accent">About me.</h2>
               <h3 className="h3 mb-4">
-                I&apos;m a Freelance Front-end Developer with over 15 months of
-                experience
+                I&apos;m a frontend developer with over 3 years of experience
               </h3>
               <p className="mb-6">
-                Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
-                Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                i am passionate about building aesthetically beautiful &
+                functional web applications. I also love consuming information
+                from APIs (Application Programming Interfaces) and designing
+                their data.
               </p>
               {/* stats */}
               <div className="flex gap-x-6 lg:gap-x-10 mb-12 justify-between md:justify-start lg:justify-start">
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient">
-                    <CountUp start={0} end={15} duration={3} />
+                    <CountUp start={0} end={36} duration={3} />
                   </div>
                   <div className="font-primary text-sm tracking-[2px]">
                     Months of <br />
@@ -60,7 +63,7 @@ export default function About() {
                 </div>
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient">
-                    <CountUp start={0} end={10} duration={3} />
+                    <CountUp start={0} end={15} duration={3} />
 
                     {"+"}
                   </div>
@@ -72,7 +75,9 @@ export default function About() {
                 </div>
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient">
-                    <CountUp start={0} end={6} duration={3} />
+                    <CountUp start={0} end={20} duration={3} />
+
+                    {"+"}
                   </div>
                   <div className="font-primary text-sm tracking-[2px]">
                     Satisfied <br />
@@ -81,10 +86,15 @@ export default function About() {
                 </div>
               </div>
               <div className="flex gap-x-8 items-center justify-center md:justify-start">
-                <button className="btn btn-lg">Contact me</button>
-                <a href="#" className="text-gradient btn-link">
+                <Link to="contact" smooth={true} spy={true} offset={-200}>
+                  <button className="btn btn-lg">Contact me</button>
+                </Link>
+                <Link
+                  to="work"
+                  className="text-gradient btn-link cursor-pointer"
+                >
                   My Portfolio
-                </a>
+                </Link>
               </div>
             </motion.div>
           </div>
