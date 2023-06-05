@@ -63,8 +63,8 @@ export default function Banner() {
               <br />
               <p>
                 Step into my world of code and creativity, where pixels come
-                alive and ideas turn into digital realities. I'm thrilled to
-                have you here, exploring my projects, skills, and passion for
+                alive and ideas turn into digital realities. I&apos;m thrilled
+                to have you here, exploring my projects, skills, and passion for
                 technology.
               </p>
             </motion.div>
