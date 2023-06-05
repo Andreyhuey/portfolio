@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from "../assets/avatar.jpeg";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 //  motion
@@ -96,11 +96,17 @@ export default function Banner() {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-300 lg:max"
             >
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/oluwadara-ola-obaado-64b5511b4/"
+                target="_blank"
+              >
                 <FaLinkedin className="text-4xl" />
               </a>
-              <a href="">
+              <a href="https://github.com/andreyhuey" target="_blank">
                 <FaGithub className="text-4xl" />
+              </a>
+              <a href="https://twitter.com/andreyhuey" target="_blank">
+                <FaTwitter className="text-4xl" />
               </a>
             </motion.div>
           </div>
