@@ -105,3 +105,38 @@ export const projects = [
     id: 5,
   },
 ];
+
+export const technologies = [
+  {
+    title: "API",
+    image: "../assets/api.png",
+  },
+  {
+    title: "Bootstrap",
+    image: "../assets/bootstrap.png",
+  },
+  {
+    title: "Firebase",
+    image: "../assets/firebase.svg",
+  },
+  {
+    title: "Git",
+    image: "../assets/git.png",
+  },
+  {
+    title: "Github",
+    image: "../assets/github.png",
+  },
+  {
+    title: "React",
+    image: "../assets/react.png",
+  },
+  {
+    title: "Sanity",
+    image: "../assets/sanity.svg",
+  },
+  {
+    title: "TailwindCss",
+    image: "../assets/tailwind.png",
+  },
+];
