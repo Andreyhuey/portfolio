@@ -1,3 +1,48 @@
+export const skills = [
+  {
+    title: "Communication",
+    description:
+      "Interacting effectively with other developers, as well as with non-technical stakeholders. This includes being able to explain technical concepts in a clear and concise way, as well as being able to understand and respond to feedback.",
+  },
+  {
+    title: "Problem-solving",
+    description:
+      "ability to solve problems independently. This includes being able to identify the root cause of a problem, as well as being able to come up with creative solutions.",
+  },
+  {
+    title: "Continuous learning",
+    description:
+      "The field of web development is constantly evolving so i endeavour to learn new technologies and techniques on an ongoing basis.",
+  },
+];
+
+export const services = [
+  {
+    name: "Design To Code",
+    description:
+      "Translating UI/UX design's visual elements, layout, and user interactions into code to create a functional and visually appealing web interface.",
+    link: "Learn More",
+  },
+  {
+    name: "API Integration",
+    description:
+      "Utilizing external application programming interfaces within web applications to leverage existing functionalities and data from other systems.",
+    link: "Learn More",
+  },
+  {
+    name: "State Management",
+    description:
+      "Managing and storing data used across different parts of a web application. Ensuring that all components have access to the most up-to-date and consistent data, enabling them to work together effectively.",
+    link: "Learn More",
+  },
+  {
+    name: "Backend-as-a-service",
+    description:
+      "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
+    link: "Learn More",
+  },
+];
+
 export const projects = [
   {
     title: "Marvel",
@@ -58,23 +103,5 @@ export const projects = [
     source: "https://github.com",
     visit: "https://google.com",
     id: 5,
-  },
-];
-
-export const skills = [
-  {
-    title: "Communication",
-    description:
-      "Interacting effectively with other developers, as well as with non-technical stakeholders. This includes being able to explain technical concepts in a clear and concise way, as well as being able to understand and respond to feedback.",
-  },
-  {
-    title: "Problem-solving",
-    description:
-      "ability to solve problems independently. This includes being able to identify the root cause of a problem, as well as being able to come up with creative solutions.",
-  },
-  {
-    title: "Continuous learning",
-    description:
-      "The field of web development is constantly evolving so i endeavour to learn new technologies and techniques on an ongoing basis.",
   },
 ];
