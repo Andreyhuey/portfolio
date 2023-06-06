@@ -32,9 +32,9 @@ const services = [
     link: "Learn More",
   },
   {
-    name: "Technical Writing",
+    name: "Backend-as-a-service",
     description:
-      " Providing accurate, accessible, and easily understandable information to users, whether they are developers, end-users, or other stakeholders. i.e API documentation, Articles & technical blog posts",
+      "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
     link: "Learn More",
   },
 ];
