@@ -60,3 +60,21 @@ export const projects = [
     id: 5,
   },
 ];
+
+export const skills = [
+  {
+    title: "Communication",
+    description:
+      "Interacting effectively with other developers, as well as with non-technical stakeholders. This includes being able to explain technical concepts in a clear and concise way, as well as being able to understand and respond to feedback.",
+  },
+  {
+    title: "Problem-solving",
+    description:
+      "ability to solve problems independently. This includes being able to identify the root cause of a problem, as well as being able to come up with creative solutions.",
+  },
+  {
+    title: "Continuous learning",
+    description:
+      "The field of web development is constantly evolving so i endeavour to learn new technologies and techniques on an ongoing basis.",
+  },
+];
