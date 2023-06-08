@@ -3,6 +3,8 @@ export const skills = [
     title: "Communication",
     description:
       "Interacting effectively with other developers, as well as with non-technical stakeholders. This includes being able to explain technical concepts in a clear and concise way, as well as being able to understand and respond to feedback.",
+    extra:
+      "Building a personal connection with people: developers & non-technical stakeholders in order to understand their taste from their personalities and be able to deliver on their proposed requirements is crucial and this is done through proper communication and comprehension",
   },
   {
     title: "Problem-solving",
