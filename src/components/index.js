@@ -5,5 +5,6 @@ import Contact from "./Contact";
 import Header from "./Header.jsx";
 import Services from "./Services";
 import Work from "./Work";
+import Zoho from "./Zoho";
 
-export { About, Nav, Banner, Contact, Header, Services, Work };
+export { About, Nav, Banner, Contact, Header, Services, Work, Zoho };

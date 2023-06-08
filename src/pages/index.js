@@ -6,6 +6,7 @@ import {
   Contact,
   Services,
   Work,
+  Zoho,
 } from "../components";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <Services />
         <Work />
         <Contact />
+        <Zoho />
       </div>
     </>
   );
