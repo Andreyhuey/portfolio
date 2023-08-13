@@ -23,23 +23,11 @@ export default function About() {
         <div>
           <div className="flex flex-col xs:flex xs:items-center xs:justify-center lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
             {/* img */}
-            <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.3 }}
-              className="flex-1 justify-center items-center"
-            >
+            <div className="flex-1 justify-center items-center">
               <Image src={ab} alt="about" />
-            </motion.div>
+            </div>
             {/* text */}
-            <motion.div
-              variants={fadeIn("left", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.3 }}
-              className="lg:flex-1 flex-1 my-10 items-center justify-center"
-            >
+            <div className="lg:flex-1 flex-1 my-10 items-center justify-center">
               <h2 className="h2 text-accent">About me.</h2>
               <h3 className="h3 mb-4">
                 Turning design dreams into stunning web experiences.
@@ -54,7 +42,7 @@ export default function About() {
               <div className="flex gap-x-6 lg:gap-x-10 mb-12 justify-between md:justify-start lg:justify-start">
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient">
-                    <CountUp start={0} end={36} duration={3} />
+                    <CountUp start={0} end={38} duration={3} />
                   </div>
                   <div className="font-primary text-sm tracking-[2px]">
                     Months of <br />
@@ -96,7 +84,7 @@ export default function About() {
                   My Portfolio
                 </Link>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>

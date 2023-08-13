@@ -19,7 +19,7 @@ export default function Banner() {
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
           <div className="flex-1 text-center font-secondary lg:text-left">
-            <h1 className="text-[35px] font-bold leading-[0.8] lg:text-[90px] mb-1">
+            <h1 className="text-[35px] font-bold leading-[0.8] lg:text-[45px] mb-1">
               OLUWADARA <span>OLA-OBAADO</span>
             </h1>
             <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
@@ -63,13 +63,7 @@ export default function Banner() {
               </Link>
             </div>
             {/* socials */}
-            <div
-              variants={fadeIn("up", 0.7)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-300 lg:max"
-            >
+            <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-300 lg:max">
               <a
                 href="https://www.linkedin.com/in/oluwadara-ola-obaado-64b5511b4/"
                 target="_blank"
