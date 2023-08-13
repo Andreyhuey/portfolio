@@ -22,24 +22,28 @@ export const skills = [
 
 export const services = [
   {
+    id: 1,
     name: "Design To Code",
     description:
       "Translating UI/UX design's visual elements, layout, and user interactions into code to create a functional and visually appealing web interface.",
     link: "Learn More",
   },
   {
+    id: 2,
     name: "API Integration",
     description:
       "Utilizing external application programming interfaces within web applications to leverage existing functionalities and data from other systems.",
     link: "Learn More",
   },
   {
+    id: 3,
     name: "State Management",
     description:
       "Managing and storing data used across different parts of a web application. Ensuring that all components have access to the most up-to-date and consistent data, enabling them to work together effectively.",
     link: "Learn More",
   },
   {
+    id: 4,
     name: "Backend-as-a-service",
     description:
       "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",

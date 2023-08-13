@@ -1,12 +1,4 @@
-import {
-  Header,
-  About,
-  Banner,
-  Contact,
-  Services,
-  Work,
-  Zoho,
-} from "../components";
+import { Header, About, Banner, Contact, Services, Work } from "../components";
 
 export default function Home() {
   return (
@@ -18,7 +10,6 @@ export default function Home() {
         <Services />
         <Work />
         <Contact />
-        <Zoho />
       </div>
     </>
   );

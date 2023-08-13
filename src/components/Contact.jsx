@@ -1,7 +1,4 @@
 import React from "react";
-
-import { motion } from "framer-motion";
-
 import { fadeIn } from "@/variants";
 
 export default function Contact() {
@@ -10,7 +7,7 @@ export default function Contact() {
       <div className="sm:container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           {/* text */}
-          <motion.div
+          <div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
@@ -25,15 +22,9 @@ export default function Contact() {
                 Let&apos;s work <br /> together!
               </h2>
             </div>
-          </motion.div>
+          </div>
           {/* form */}
-          <motion.div
-            variants={fadeIn("up", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 border border-slate-500 rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
-          >
+          <div className="flex-1 border border-slate-500 rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start">
             <form>
               <input
                 className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
@@ -57,7 +48,7 @@ export default function Contact() {
                 Send Message
               </button>
             </form>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>

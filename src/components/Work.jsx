@@ -3,7 +3,10 @@ import React from "react";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+
 // img
+import { project } from "../constants/constants";
+
 import Img1 from "../assets/portfolio-img1.png";
 import Img2 from "../assets/portfolio-img2.png";
 import Img3 from "../assets/portfolio-img3.png";
@@ -14,13 +17,7 @@ export default function Work() {
     <section className="section" id="work">
       <div className="sm:container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
-          <motion.div
-            variants={fadeIn("right", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
-          >
+          <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
             {/* text */}
             <div>
               <h2 className="h1 leading-tight text-accent">
@@ -54,14 +51,8 @@ export default function Work() {
                 </span>
               </div>
             </div>
-          </motion.div>
-          <motion.div
-            variants={fadeIn("left", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-10"
-          >
+          </div>
+          <div className="flex-1 flex flex-col gap-y-10">
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
@@ -100,7 +91,7 @@ export default function Work() {
                 <span className="text-3xl text-white font-bold">Star Wars</span>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
