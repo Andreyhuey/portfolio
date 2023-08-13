@@ -3,8 +3,6 @@ import Avatar from "../assets/avatar.jpeg";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 // type animation
 import { TypeAnimation } from "react-type-animation";
-//  motion
-import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants.js";
 import Image from "next/image";
@@ -21,22 +19,10 @@ export default function Banner() {
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
           <div className="flex-1 text-center font-secondary lg:text-left">
-            <motion.h1
-              variants={fadeIn("up", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="text-[35px] font-bold leading-[0.8] lg:text-[90px] mb-1"
-            >
+            <h1 className="text-[35px] font-bold leading-[0.8] lg:text-[90px] mb-1">
               OLUWADARA <span>OLA-OBAADO</span>
-            </motion.h1>
-            <motion.div
-              variants={fadeIn("up", 0.4)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
-            >
+            </h1>
+            <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
               <TypeAnimation
                 sequence={[
                   "Front-End Developer",
@@ -49,14 +35,8 @@ export default function Banner() {
                 wrapper="span"
                 repeat={Infinity}
               />
-            </motion.div>
-            <motion.div
-              variants={fadeIn("up", 0.5)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0 font-semibold"
-            >
+            </div>
+            <div className="mb-8 max-w-lg mx-auto lg:mx-0 font-semibold">
               <p className="my-2">
                 Hello!, Welcome to my developer portfolio 🚀
               </p>{" "}
@@ -67,14 +47,8 @@ export default function Banner() {
                 to have you here, exploring my projects, skills, and passion for
                 technology.
               </p>
-            </motion.div>
-            <motion.div
-              variants={fadeIn("up", 0.6)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
-            >
+            </div>
+            <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <Link to="contact" smooth={true} spy={true} offset={-200}>
                 <button className="btn btn-lg">Contact Me</button>
               </Link>
@@ -87,9 +61,9 @@ export default function Banner() {
               >
                 My Portfolio
               </Link>
-            </motion.div>
+            </div>
             {/* socials */}
-            <motion.div
+            <div
               variants={fadeIn("up", 0.7)}
               initial="hidden"
               whileInView={"show"}
@@ -117,17 +91,12 @@ export default function Banner() {
               >
                 <FaTwitter className="text-4xl" />
               </a>
-            </motion.div>
+            </div>
           </div>
           {/* image */}
-          <motion.div
-            variants={fadeIn("down", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto"
-          >
+          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto">
             <Image src={Avatar} alt="avatar" className="rounded-3xl " />
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

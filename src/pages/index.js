@@ -1,5 +1,4 @@
 import {
-  Nav,
   Header,
   About,
   Banner,
@@ -13,7 +12,6 @@ export default function Home() {
   return (
     <>
       <div className=" bg-gray-900 text-white overflow-hidden xs:p-2">
-        <Nav />
         <Header />
         <Banner />
         <About />
