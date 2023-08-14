@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 // img
-import { project } from "../constants/constants";
+import { projects } from "../constants/constants";
 
 import Img1 from "../assets/portfolio-img1.png";
 import Img2 from "../assets/portfolio-img2.png";
@@ -16,8 +16,8 @@ export default function Work() {
   return (
     <section className="section" id="work">
       <div className="sm:container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-x-10">
-          <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
+        <div className="">
+          <div className="flex flex-col gap-y-12 mb-10 lg:mb-0">
             {/* text */}
             <div>
               <h2 className="h1 leading-tight text-accent">
@@ -31,66 +31,51 @@ export default function Work() {
               <button className="btn btn-sm">View All Projects</button>
             </div>
             {/* image */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <Image
-                src={Img1}
-                alt=""
-                className="group-hover:scale-125 transition-all duration-500"
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">API Integration</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white font-bold">
-                  Marvel Library
-                </span>
-              </div>
-            </div>
           </div>
-          <div className="flex-1 flex flex-col gap-y-10">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* image */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <Image
-                src={Img2}
-                alt=""
-                className="group-hover:scale-125 transition-all duration-500"
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Design To Code</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white font-bold">Anon</span>
-              </div>
-            </div>
-            {/* image */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              {/* overlay */}
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <Image
-                src={Img3}
-                alt=""
-                className="group-hover:scale-125 transition-all duration-500"
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">State Management</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white font-bold">Star Wars</span>
-              </div>
-            </div>
+            {projects &&
+              projects.map((project, index) => {
+                // destructure service
+                const {
+                  title,
+                  type,
+                  description,
+                  image,
+                  tags,
+                  service,
+                  visit,
+                  id,
+                } = project;
+
+                return (
+                  <div className="">
+                    <div
+                      className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
+                      key={id}
+                    >
+                      <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+
+                      <Image
+                        src={image}
+                        alt=""
+                        className="group-hover:scale-125 transition-all duration-500"
+                      />
+
+                      <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                        <span className="text-gradient">{type}</span>
+                      </div>
+
+                      <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                        <span className="text-3xl text-white font-bold">
+                          {title}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </div>
