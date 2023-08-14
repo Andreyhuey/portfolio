@@ -1,4 +1,9 @@
+// Images
+import marvel from "../assets/marvel.png";
+import vortexGlide from "../assets/vortexglide.png";
 import img1 from "../assets/portfolio-img1.png";
+import img2 from "../assets/portfolio-img2.png";
+import img3 from "../assets/portfolio-img3.png";
 
 export const skills = [
   {
@@ -22,17 +27,25 @@ export const skills = [
 
 export const services = [
   {
-    id: 1,
-    name: "Design To Code",
+    id: 0,
+    name: "API Integration",
     description:
-      "Translating UI/UX design's visual elements, layout, and user interactions into code to create a functional and visually appealing web interface.",
+      "Utilizing external application programming interfaces within web applications to leverage existing functionalities and data from other systems.",
+    link: "Learn More",
+  },
+
+  {
+    id: 1,
+    name: "Backend-as-a-service",
+    description:
+      "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
     link: "Learn More",
   },
   {
     id: 2,
-    name: "API Integration",
+    name: "Design To Code",
     description:
-      "Utilizing external application programming interfaces within web applications to leverage existing functionalities and data from other systems.",
+      "Translating UI/UX design's visual elements, layout, and user interactions into code to create a functional and visually appealing web interface.",
     link: "Learn More",
   },
   {
@@ -42,82 +55,85 @@ export const services = [
       "Managing and storing data used across different parts of a web application. Ensuring that all components have access to the most up-to-date and consistent data, enabling them to work together effectively.",
     link: "Learn More",
   },
-  {
-    id: 4,
-    name: "Backend-as-a-service",
-    description:
-      "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
-    link: "Learn More",
-  },
 ];
 
 export const projects = [
   {
-    title: "Marvel",
+    title: "MarvelVerse",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: img1,
-    tags: ["Bootstrap", "React"],
-    type: "Design to Code",
+      "Marvel's vast collection of characters, comics, creators, events, series and stories.",
+    image: marvel,
+    tags: ["JavaScript", "Bootstrap", "React", "Redux"],
+    type: "API Integration",
     source: "https://github.com",
-    visit: "https://google.com",
+    visit: "https://marvel-x.netlify.app",
     id: 0,
   },
   {
-    title: "E-Commerce",
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: img1,
-    type: "Design to Code",
-    tags: ["React", "NextJs", "Sanity"],
+    title: "VortexGlide",
+    description: "A gaming website advertising services for interested clients",
+    image: vortexGlide,
+    tags: ["TypeScript", "NextJs", "TailwindCss"],
+    type: "Design To Code",
     source: "https://github.com",
-    visit: "https://google.com",
+    visit: "https://vortexglide.netlify.app",
     id: 1,
   },
   {
-    title: "Dashboard",
+    title: "User Auth",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: img1,
-    tags: ["React", "TailwindCss", "Redux"],
+      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    image: img2,
+    tags: ["React", "TypeScript", "Firebase", "Redux"],
     type: "Design to Code",
     source: "https://github.com",
     visit: "https://google.com",
     id: 2,
   },
   {
-    title: "Crypto",
+    title: "Health Insurance",
     description:
       "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: img1,
-    tags: ["React", "Redux", "RapidAPI"],
+    image: img3,
+    tags: ["React", "Bootstrap", "Firebase"],
     type: "Design to Code",
     source: "https://github.com",
     visit: "https://google.com",
     id: 3,
   },
-  {
-    title: "User Auth",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: img1,
-    tags: ["React", "Bootstrap", "Firebase"],
-    type: "Design to Code",
-    source: "https://github.com",
-    visit: "https://google.com",
-    id: 4,
-  },
-  {
-    title: "Health Insurance",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: img1,
-    tags: ["React", "Bootstrap", "Firebase"],
-    type: "Design to Code",
-    source: "https://github.com",
-    visit: "https://google.com",
-    id: 5,
-  },
+  // {
+  //   title: "E-Commerce",
+  //   description:
+  //     "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+  //   image: img2,
+  //   type: "Design to Code",
+  //   tags: ["React", "NextJs", "Sanity"],
+  //   source: "https://github.com",
+  //   visit: "https://google.com",
+  //   id: 1,
+  // },
+  // {
+  //   title: "Dashboard",
+  //   description:
+  //     "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+  //   image: img3,
+  //   tags: ["React", "TailwindCss", "Redux"],
+  //   type: "Design to Code",
+  //   source: "https://github.com",
+  //   visit: "https://google.com",
+  //   id: 2,
+  // },
+  // {
+  //   title: "Crypto",
+  //   description:
+  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: img1,
+  //   tags: ["React", "Redux", "RapidAPI"],
+  //   type: "Design to Code",
+  //   source: "https://github.com",
+  //   visit: "https://google.com",
+  //   id: 3,
+  // },
 ];
 
 export const technologies = [
