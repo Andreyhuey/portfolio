@@ -4,11 +4,7 @@ import React from "react";
 import Image from "next/image";
 // countup
 import CountUp from "react-countup";
-// intersection observer
-// import { useInView } from "react-intersection-observer";
-// motion
-import { motion } from "framer-motion";
-import ab from "../assets/wave.png";
+import Avatar from "../assets/avatar.jpeg";
 // variant
 import { fadeIn } from "../variants.js";
 
@@ -23,8 +19,8 @@ export default function About() {
         <div>
           <div className="flex flex-col xs:flex xs:items-center xs:justify-center lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
             {/* img */}
-            <div className="flex-1 justify-center items-center">
-              <Image src={ab} alt="about" />
+            <div className="lg:hidden flex-1 justify-center items-center">
+              <Image src={Avatar} alt="about" className="rounded-3xl" />
             </div>
             {/* text */}
             <div className="lg:flex-1 flex-1 my-10 items-center justify-center">

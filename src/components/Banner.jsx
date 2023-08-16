@@ -4,7 +4,6 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // variants
-import { fadeIn } from "../variants.js";
 import Image from "next/image";
 import { Link } from "react-scroll";
 
