@@ -7,9 +7,6 @@ import { fadeIn } from "../variants";
 // img
 import { projects } from "../constants/constants";
 
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
 import Image from "next/image";
 import Link from "next/link";
 
