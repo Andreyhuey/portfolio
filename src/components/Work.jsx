@@ -15,11 +15,9 @@ export default function Work() {
             <div>
               <h2 className="h1 leading-tight text-accent">My Latest Work.</h2>
             </div>
-            {/* image */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {/* image */}
             {projects &&
               projects.map((project, index) => {
                 // destructure service
