@@ -20,11 +20,11 @@ export default function Services() {
         <div className="flex flex-col lg:flex-row h-auto">
           {/* text & image*/}
           <div
-            className="flex-1 justify-center items-center
+            className="flex-1 flex flex-col justify-center items-center  lg:justify-start lg:items-start
             mb-12"
           >
             <h2 className="h1 text-accent mb-6">What I Do</h2>
-            <h3 className="h3 max-w-[455px] mb-16">
+            <h3 className="h3 max-w-[455px] mb-16 text-center lg:text-start ">
               I&apos;m a front-end developer with over three years of freelance
               & a year of professional experience.
             </h3>

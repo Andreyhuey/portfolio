@@ -21,7 +21,7 @@ export default function Banner() {
             <h1 className="text-[35px] font-bold leading-[0.8] lg:text-[45px] mb-1">
               OLUWADARA <span>OLA-OBAADO</span>
             </h1>
-            <div className="mb-6 flex flex-col items-center justify-center text-[36px] h-14 pt-3 lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
+            <div className="mb-6 flex flex-col items-center justify-center lg:justify-start lg:items-start lg:text-start text-[36px] h-14 pt-3 lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
               <TypeAnimation
                 sequence={["Front-End Developer", 2000, "API developer", 2000]}
                 speed={40}
