@@ -17,18 +17,13 @@ export default function About() {
     <section className="section" id="about">
       <div className="sm:container mx-auto">
         <div>
-          <div className="flex flex-col xs:flex xs:items-center xs:justify-center lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
-            {/* img */}
-            <div className="lg:hidden flex-1 justify-center items-center">
-              <Image src={Avatar} alt="about" className="rounded-3xl" />
-            </div>
-            {/* text */}
-            <div className="lg:flex-1 flex-1 my-10 items-center justify-center">
-              <h2 className="h2 text-accent">About me.</h2>
+          <div className="flex flex-col items-center justify-center">
+            <div className=" my-10 flex flex-col items-center justify-center text-center">
+              <h2 className="h2 text-accent ">About me.</h2>
               <h3 className="h3 mb-4">
                 Turning design dreams into stunning web experiences.
               </h3>
-              <p className="mb-6">
+              <p className="mb-6 md:max-w-[700px]">
                 i am passionate about building aesthetically beautiful &
                 functional web applications. I also love consuming information
                 from APIs (Application Programming Interfaces) and designing
@@ -75,6 +70,9 @@ export default function About() {
                 </Link>
                 <Link
                   to="work"
+                  smooth={true}
+                  spy={true}
+                  offset={-200}
                   className="text-gradient btn-link cursor-pointer"
                 >
                   My Portfolio

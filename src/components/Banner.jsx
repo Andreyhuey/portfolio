@@ -15,13 +15,13 @@ export default function Banner() {
       id="home"
     >
       <div className="sm:container mx-auto">
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+        <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
-          <div className="flex-1 text-center font-secondary lg:text-left">
+          <div className="flex-1 text-center font-secondary lg:text-left order-2 lg:order-1">
             <h1 className="text-[35px] font-bold leading-[0.8] lg:text-[45px] mb-1">
               OLUWADARA <span>OLA-OBAADO</span>
             </h1>
-            <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
+            <div className="mb-6 flex flex-col items-center justify-center text-[36px] h-14 pt-3 lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
               <TypeAnimation
                 sequence={["Front-End Developer", 2000, "API developer", 2000]}
                 speed={40}
@@ -82,9 +82,12 @@ export default function Banner() {
             </div>
           </div>
           {/* image */}
-          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto">
-            <Image src={Avatar} alt="avatar" className="rounded-3xl " />
-          </div>
+
+          <Image
+            src={Avatar}
+            alt="avatar"
+            className="rounded-3xl flex-1 lg:max-w-[482px] mx-auto order-1 lg:order-2"
+          />
         </div>
       </div>
     </section>

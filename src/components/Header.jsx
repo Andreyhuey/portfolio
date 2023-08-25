@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="py-8">
+    <header className="py-8 md:py-10 lg:py-12">
       <div className="sm:container mx-auto">
         <div className="flex justify-between items-center">
           {/* logo */}
