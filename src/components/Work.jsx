@@ -1,12 +1,7 @@
+"use client";
+
 import React from "react";
-// motion
-import { motion } from "framer-motion";
-// variants
-import { fadeIn } from "../variants";
-
-// img
 import { projects } from "../constants/constants";
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -52,6 +47,7 @@ export default function Work() {
                       className="group-hover:scale-125 transition-all duration-500"
                     />
 
+                    {/* for pcs and tabs */}
                     <div className="hidden  absolute -bottom-full left-8 group-hover:bottom-10 md:group-hover:bottom-5 transition-all duration-500 z-50 md:flex flex-col gap-y-4">
                       <span className="text-3xl text-white font-bold">
                         {title}
