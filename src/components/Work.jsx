@@ -15,16 +15,10 @@ export default function Work() {
     <section className="section" id="work">
       <div className="sm:container mx-auto">
         <div className="">
-          <div className="flex flex-col gap-y-12 mb-10">
+          <div className="flex flex-col items-center justify-center gap-y-12 mb-10 text-center">
             {/* text */}
             <div>
-              <h2 className="h1 leading-tight text-accent">
-                My Latest <br /> Work.
-              </h2>
-              <p className="max-w-sm mb-16">
-                Here is a list of my recent projects
-              </p>
-              <button className="btn btn-sm">View All Projects</button>
+              <h2 className="h1 leading-tight text-accent">My Latest Work.</h2>
             </div>
             {/* image */}
           </div>
