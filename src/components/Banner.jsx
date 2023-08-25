@@ -23,12 +23,7 @@ export default function Banner() {
             </h1>
             <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
               <TypeAnimation
-                sequence={[
-                  "Front-End Developer",
-                  2000,
-                  "Aspiring FullStacker",
-                  2000,
-                ]}
+                sequence={["Front-End Developer", 2000, "API developer", 2000]}
                 speed={40}
                 className="text-accent"
                 wrapper="span"

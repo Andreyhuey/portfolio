@@ -1,6 +1,7 @@
 // Images
 import marvel from "../assets/marvel.png";
 import vortexGlide from "../assets/vortexglide.png";
+import socialTract from "../assets/localhost_3000.png";
 import img1 from "../assets/portfolio-img1.png";
 import img2 from "../assets/portfolio-img2.png";
 import img3 from "../assets/portfolio-img3.png";
@@ -63,10 +64,10 @@ export const projects = [
     description:
       "Marvel's vast collection of characters, comics, creators, events, series and stories.",
     image: marvel,
-    tags: ["React", "JavaScript", "TailwindCSS", "Redux Toolkit"],
-    type: "API Integration, Design To Code, State Management",
+    tags: ["React", "TailwindCSS", "Redux-toolkit"],
+    type: "API Integration, State Management",
     source: "https://github.com/Andreyhuey/marvelverse",
-    visit: "https://marvel-verse-app.netlify.app",
+    visit: "https://marvel-verse-app.netlify.app/events",
     id: 0,
   },
   {
@@ -82,27 +83,40 @@ export const projects = [
     id: 1,
   },
   {
-    title: "User Auth",
+    title: "SocialTract",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: img2,
-    tags: ["React", "TypeScript", "TailwindCSS", "Firebase", "Redux"],
-    type: "Design to Code, Backend As A Service",
-    source: "https://github.com",
-    visit: "https://google.com",
+      "A social & corporate domain for connecting with people all around the world",
+    image: socialTract,
+    tags: ["Nextjs", "TypeScript", "TailwindCSS"],
+    type: "Design To Code",
+    source: "https://github.com/Andreyhuey/social-tract",
+    visit: "https://social-tract.vercel.app/",
+    figma:
+      "https://www.figma.com/file/hPQBhpRoTo77PGwV3tJhJ8/Tract-Social-Web-%26-Responsive?type=design&node-id=1-5318&mode=design&t=KFBCrvXM5FoBWADD-0",
     id: 2,
   },
-  {
-    title: "Oranghis",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: img3,
-    tags: ["React", "JavaScript", "Bootstrap"],
-    type: "Design to Code, API Integration",
-    source: "https://github.com",
-    visit: "https://google.com",
-    id: 3,
-  },
+  // {
+  //   title: "User Auth",
+  //   description:
+  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: img2,
+  //   tags: ["React", "TypeScript", "TailwindCSS", "Firebase", "Redux"],
+  //   type: "Design to Code, Backend As A Service",
+  //   source: "https://github.com",
+  //   visit: "https://google.com",
+  //   id: 2,
+  // },
+  // {
+  //   title: "Oranghis",
+  //   description:
+  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: img3,
+  //   tags: ["React", "JavaScript", "Bootstrap"],
+  //   type: "Design to Code, API Integration",
+  //   source: "https://github.com",
+  //   visit: "https://google.com",
+  //   id: 3,
+  // },
   // {
   //   title: "E-Commerce",
   //   description:
