@@ -180,11 +180,19 @@ export const technologies = [
     image: "../assets/react.png",
   },
   {
+    title: "NextJs",
+    image: "../assets/react.png",
+  },
+  {
     title: "Sanity",
     image: "../assets/sanity.svg",
   },
   {
     title: "TailwindCSS",
+    image: "../assets/tailwind.png",
+  },
+  {
+    title: "TypeScript",
     image: "../assets/tailwind.png",
   },
 ];
