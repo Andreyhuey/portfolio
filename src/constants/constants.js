@@ -95,17 +95,19 @@ export const projects = [
       "https://www.figma.com/file/hPQBhpRoTo77PGwV3tJhJ8/Tract-Social-Web-%26-Responsive?type=design&node-id=1-5318&mode=design&t=KFBCrvXM5FoBWADD-0",
     id: 2,
   },
-  // {
-  //   title: "User Auth",
-  //   description:
-  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: img2,
-  //   tags: ["React", "TypeScript", "TailwindCSS", "Firebase", "Redux"],
-  //   type: "Design to Code, Backend As A Service",
-  //   source: "https://github.com",
-  //   visit: "https://google.com",
-  //   id: 2,
-  // },
+  {
+    title: "Analytics",
+    description:
+      "A business intelligence domain for data mining, process analysis, performance benchmarking and descriptive analytics",
+    image: img2,
+    tags: ["Nextjs", "TypeScript", "TailwindCSS"],
+    type: "Design to Code",
+    source: "https://github.com/Andreyhuey/analytics",
+    visit: "https://analytics-tan.vercel.app",
+    figma:
+      "https://www.figma.com/file/hPQBhpRoTo77PGwV3tJhJ8/Tract-Social-Web-%26-Responsive?type=design&node-id=1-5318&mode=design&t=KFBCrvXM5FoBWADD-0",
+    id: 3,
+  },
   // {
   //   title: "Oranghis",
   //   description:
@@ -182,7 +184,7 @@ export const technologies = [
     image: "../assets/sanity.svg",
   },
   {
-    title: "TailwindCss",
+    title: "TailwindCSS",
     image: "../assets/tailwind.png",
   },
 ];
