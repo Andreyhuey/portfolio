@@ -2,6 +2,7 @@
 import marvel from "../assets/marvel.png";
 import vortexGlide from "../assets/vortexglide.png";
 import socialTract from "../assets/localhost_3000.png";
+import analytics from "../assets/analytics.png";
 import img1 from "../assets/portfolio-img1.png";
 import img2 from "../assets/portfolio-img2.png";
 import img3 from "../assets/portfolio-img3.png";
@@ -99,7 +100,7 @@ export const projects = [
     title: "Analytics",
     description:
       "A business intelligence domain for data mining, process analysis, performance benchmarking and descriptive analytics",
-    image: img2,
+    image: analytics,
     tags: ["Nextjs", "TypeScript", "TailwindCSS"],
     type: "Design to Code",
     source: "https://github.com/Andreyhuey/analytics",
