@@ -1,11 +1,3 @@
-// Images
-import marvel from "../assets/marvelverse-home.png";
-import vortexGlide from "../assets/vortexglide.png";
-import socialTract from "../assets/social-tract.png";
-import analytics from "../assets/analytics.png";
-import evobank from "../assets/evobank-home.png";
-import medilifi from "../assets/medilifi.png";
-
 export const skills = [
   {
     title: "Communication",
@@ -57,6 +49,14 @@ export const services = [
     link: "Learn More",
   },
 ];
+
+//project Images
+import marvel from "../assets/marvelverse-home.png";
+import vortexGlide from "../assets/vortexglide.png";
+import socialTract from "../assets/social-tract.png";
+import analytics from "../assets/analytics.png";
+import evobank from "../assets/evobank-home.png";
+import medilifi from "../assets/medilifi.png";
 
 export const projects = [
   {
@@ -116,7 +116,7 @@ export const projects = [
     tags: ["React", "TypeScript", "TailwindCSS"],
     type: "Design to Code, API Integration",
     source: "https://github.com",
-    visit: "https://google.com",
+    visit: "https://evob.vercel.app/",
     id: 3,
   },
   {
@@ -126,79 +126,45 @@ export const projects = [
     tags: ["React", "Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
     type: "Design to Code, API Integration",
     source: "https://github.com",
-    visit: "https://google.com",
+    visit: "https://medilifi.vercel.app/",
     id: 3,
   },
-  // {
-  //   title: "Oranghis",
-  //   description:
-  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: img3,
-  //   tags: ["React", "JavaScript", "Bootstrap"],
-  //   type: "Design to Code, API Integration",
-  //   source: "https://github.com",
-  //   visit: "https://google.com",
-  //   id: 3,
-  // },
-  // {
-  //   title: "E-Commerce",
-  //   description:
-  //     "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-  //   image: img2,
-  //   type: "Design to Code",
-  //   tags: ["React", "NextJs", "Sanity"],
-  //   source: "https://github.com",
-  //   visit: "https://google.com",
-  //   id: 1,
-  // },
-  // {
-  //   title: "Dashboard",
-  //   description:
-  //     "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //   image: img3,
-  //   tags: ["React", "TailwindCss", "Redux"],
-  //   type: "Design to Code",
-  //   source: "https://github.com",
-  //   visit: "https://google.com",
-  //   id: 2,
-  // },
-  // {
-  //   title: "Crypto",
-  //   description:
-  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: img1,
-  //   tags: ["React", "Redux", "RapidAPI"],
-  //   type: "Design to Code",
-  //   source: "https://github.com",
-  //   visit: "https://google.com",
-  //   id: 3,
-  // },
 ];
+
+// tool images
+import api from "../assets/tools/api.png";
+import bootstrap from "../assets/tools/bootstrap.png";
+import firebase from "../assets/tools/firebase.svg";
+import git from "../assets/tools/git.png";
+import github from "../assets/tools/github.png";
+import react from "../assets/tools/react.png";
+import sanity from "../assets/tools/sanity.svg";
+import tailwind from "../assets/tools/tailwind.png";
 
 export const tools = [
   {
     title: "API",
-    image: "../assets/api.png",
+    image: api,
   },
   {
     title: "Bootstrap",
-    image: "../assets/bootstrap.png",
+    image: bootstrap,
   },
   {
     title: "Firebase",
-    image: "../assets/firebase.svg",
+    image: firebase,
   },
   {
     title: "Git",
-    image: "../assets/git.png",
+    image: git,
   },
   {
     title: "Github",
-    image: "../assets/github.png",
+    image: github,
   },
   {
     title: "React",
-    image: "../assets/react.png",
+    image: react,
   },
   {
     title: "ReduxToolkit",
@@ -251,11 +217,11 @@ export const tools = [
   },
   {
     title: "Sanity",
-    image: "../assets/sanity.svg",
+    image: sanity,
   },
   {
     title: "TailwindCSS",
-    image: "../assets/tailwind.png",
+    image: tailwind,
   },
   {
     title: "TypeScript",

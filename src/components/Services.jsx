@@ -2,10 +2,6 @@
 
 import React from "react";
 import ab from "../assets/dev.png";
-// motion
-import { motion } from "framer-motion";
-// variants
-import { fadeIn } from "../variants.js";
 
 import { BsArrowUpRight } from "react-icons/bs";
 
