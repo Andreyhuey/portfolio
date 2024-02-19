@@ -1,7 +1,7 @@
 // Images
 import marvel from "../assets/marvelverse-home.png";
 import vortexGlide from "../assets/vortexglide.png";
-import socialTract from "../assets/localhost_3000.png";
+import socialTract from "../assets/social-tract.png";
 import analytics from "../assets/analytics.png";
 import evobank from "../assets/evobank-home.png";
 import medilifi from "../assets/medilifi.png";
