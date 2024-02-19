@@ -23,7 +23,16 @@ export default function Banner() {
             </h1>
             <div className="mb-6 flex flex-col items-center justify-center lg:justify-start lg:items-start lg:text-start text-[36px] h-14 pt-3 lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
               <TypeAnimation
-                sequence={["Front-End Developer", 2000, "API developer", 2000]}
+                sequence={[
+                  "Software Engineer",
+                  2000,
+                  "Backend Engineer",
+                  2000,
+                  "API developer",
+                  2000,
+                  "Front-End Developer",
+                  2000,
+                ]}
                 speed={40}
                 className="text-accent"
                 wrapper="span"
@@ -38,8 +47,8 @@ export default function Banner() {
               <p>
                 Step into my world of code and creativity, where pixels come
                 alive and ideas turn into digital realities. I&apos;m thrilled
-                to have you here, exploring my projects, skills, and passion for
-                technology.
+                to have you here, exploring my skills, projects, and passion for
+                pragmatic technology.
               </p>
             </div>
             <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">

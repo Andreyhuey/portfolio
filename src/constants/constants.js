@@ -1,11 +1,10 @@
 // Images
-import marvel from "../assets/marvel.png";
+import marvel from "../assets/marvelverse-home.png";
 import vortexGlide from "../assets/vortexglide.png";
 import socialTract from "../assets/localhost_3000.png";
 import analytics from "../assets/analytics.png";
-import img1 from "../assets/portfolio-img1.png";
-import img2 from "../assets/portfolio-img2.png";
-import img3 from "../assets/portfolio-img3.png";
+import evobank from "../assets/evobank-home.png";
+import medilifi from "../assets/medilifi.png";
 
 export const skills = [
   {
@@ -109,6 +108,27 @@ export const projects = [
       "https://www.figma.com/file/hPQBhpRoTo77PGwV3tJhJ8/Tract-Social-Web-%26-Responsive?type=design&node-id=1-5318&mode=design&t=KFBCrvXM5FoBWADD-0",
     id: 3,
   },
+
+  {
+    title: "Evobank",
+    description: "",
+    image: evobank,
+    tags: ["React", "TypeScript", "TailwindCSS"],
+    type: "Design to Code, API Integration",
+    source: "https://github.com",
+    visit: "https://google.com",
+    id: 3,
+  },
+  {
+    title: "Medilifi",
+    description: "",
+    image: medilifi,
+    tags: ["React", "Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
+    type: "Design to Code, API Integration",
+    source: "https://github.com",
+    visit: "https://google.com",
+    id: 3,
+  },
   // {
   //   title: "Oranghis",
   //   description:
@@ -155,7 +175,7 @@ export const projects = [
   // },
 ];
 
-export const technologies = [
+export const tools = [
   {
     title: "API",
     image: "../assets/api.png",
@@ -179,6 +199,51 @@ export const technologies = [
   {
     title: "React",
     image: "../assets/react.png",
+  },
+  {
+    title: "ReduxToolkit",
+    image: "../assets/react.png",
+  },
+  {
+    title: "Express",
+    image: "",
+  },
+  {
+    title: "NodeJs",
+    image: "",
+  },
+  { title: "Vercel", image: "" },
+  {
+    title: "MongoDb",
+    image: "",
+  },
+  {
+    title: "Postman",
+    image: "",
+  },
+  {
+    title: "PHP",
+    image: "",
+  },
+  {
+    title: "Hostinger",
+    image: "",
+  },
+  {
+    title: "RapidApi",
+    image: "",
+  },
+  {
+    title: "EmailJs",
+    image: "",
+  },
+  {
+    title: "CRUD",
+    image: "",
+  },
+  {
+    title: "GraphQl",
+    image: "",
   },
   {
     title: "NextJs",

@@ -35,7 +35,7 @@ export default function Work() {
                 return (
                   <div
                     className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
-                    key={id}
+                    key={index}
                   >
                     <div className="group-hover:bg-black/90 w-full h-full absolute z-40 transition-all duration-300 group-hover:w-full"></div>
 
