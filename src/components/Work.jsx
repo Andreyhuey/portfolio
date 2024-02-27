@@ -44,7 +44,7 @@ export default function Work() {
             {type === 0 && (
               <>
                 {projects?.map((project, index) => {
-                  return <Card project={project} index={index} />;
+                  return <Card project={project} index={index} key={index} />;
                 })}
               </>
             )}
@@ -54,7 +54,7 @@ export default function Work() {
                 {projects
                   ?.filter((project) => project?.type?.includes("Front End"))
                   ?.map((project, index) => (
-                    <Card key={index} project={project} />
+                    <Card key={index} project={project} index={index} />
                   ))}
               </>
             )}
@@ -63,7 +63,7 @@ export default function Work() {
                 {projects
                   ?.filter((project) => project?.type?.includes("Back End"))
                   ?.map((project, index) => (
-                    <Card key={index} project={project} />
+                    <Card key={index} project={project} index={index} />
                   ))}
               </>
             )}
@@ -72,7 +72,7 @@ export default function Work() {
                 {projects
                   ?.filter((project) => project?.type?.includes("API"))
                   ?.map((project, index) => (
-                    <Card key={index} project={project} />
+                    <Card key={index} project={project} index={index} />
                   ))}
               </>
             )}
