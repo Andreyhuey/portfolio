@@ -18,15 +18,15 @@ export default function About() {
               </h3>
               <p className="mb-6">
                 i am passionate about building aesthetically beautiful &
-                functional web applications. I also love consuming information
-                from APIs (Application Programming Interfaces) and designing
-                their data.
+                functional web applications. I also love creating & consuming
+                APIs (Application Programming Interfaces) and designing their
+                data.
               </p>
               {/* stats */}
               <div className="flex gap-x-6 lg:gap-x-10 mb-12 justify-between md:justify-start lg:justify-start">
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient">
-                    <CountUp end={38} duration={3} enableScrollSpy />
+                    <CountUp end={40} duration={3} enableScrollSpy />
                   </div>
                   <div className="font-primary text-sm tracking-[2px]">
                     Months of <br />
@@ -35,7 +35,7 @@ export default function About() {
                 </div>
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient">
-                    <CountUp enableScrollSpy end={15} duration={3} />
+                    <CountUp enableScrollSpy end={18} duration={3} />
 
                     {"+"}
                   </div>
@@ -47,7 +47,7 @@ export default function About() {
                 </div>
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient">
-                    <CountUp enableScrollSpy end={20} duration={3} />
+                    <CountUp enableScrollSpy end={34} duration={3} />
 
                     {"+"}
                   </div>

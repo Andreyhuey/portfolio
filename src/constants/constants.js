@@ -16,6 +16,11 @@ export const skills = [
     description:
       "The field of web development is constantly evolving so i endeavour to learn new technologies and techniques on an ongoing basis.",
   },
+  {
+    title: "Pragmatism",
+    description:
+      "The ability of writing practical units, functions and components code in an organized and reusable model",
+  },
 ];
 
 export const services = [
@@ -64,70 +69,79 @@ export const projects = [
     description:
       "Marvel's vast collection of characters, comics, creators, events, series and stories.",
     image: marvel,
-    tags: ["React", "TailwindCSS", "Redux-toolkit"],
-    type: "API Integration, State Management",
+    tools: ["React", "TailwindCSS", "Redux-toolkit"],
+    tags: "API Integration, State Management",
+    type: ["Front End", "API", "Back End"],
     source: "https://github.com/Andreyhuey/marvelverse",
     visit: "https://marvel-verse-app.netlify.app/events",
-    id: 0,
+    figma: "",
+    id: 1,
   },
   {
     title: "VortexGlide",
     description: "A gaming website advertising services for interested clients",
     image: vortexGlide,
-    tags: ["NextJs", "TypeScript", "TailwindCSS"],
-    type: "Design To Code",
+    tools: ["NextJs", "TypeScript", "TailwindCSS"],
+    tags: "Design To Code",
+    type: ["Front End"],
     source: "https://github.com/Andreyhuey/vortexglide",
     visit: "https://vortexglide.vercel.app/",
     figma:
       "https://www.figma.com/file/fm9xqw2T54wNs5vecNhHiK/Gaming-Platform---Web-Design-(Community)?type=design&node-id=1-4&mode=design&t=Pn0YTD86r5CsZ95s-0",
-    id: 1,
+    id: 2,
   },
   {
     title: "SocialTract",
     description:
       "A social & corporate domain for connecting with people all around the world",
     image: socialTract,
-    tags: ["Nextjs", "TypeScript", "TailwindCSS"],
-    type: "Design To Code",
+    tools: ["Nextjs", "TypeScript", "TailwindCSS"],
+    tags: "Design To Code",
+    type: ["Front End"],
     source: "https://github.com/Andreyhuey/social-tract",
     visit: "https://social-tract.vercel.app/",
     figma:
       "https://www.figma.com/file/hPQBhpRoTo77PGwV3tJhJ8/Tract-Social-Web-%26-Responsive?type=design&node-id=1-5318&mode=design&t=KFBCrvXM5FoBWADD-0",
-    id: 2,
+    id: 3,
   },
   {
     title: "Analytics",
     description:
       "A business intelligence domain for data mining, process analysis, performance benchmarking and descriptive analytics",
     image: analytics,
-    tags: ["Nextjs", "TypeScript", "TailwindCSS"],
-    type: "Design to Code",
+    tools: ["Nextjs", "TypeScript", "TailwindCSS"],
+    tags: "Design to Code",
+    type: ["Front End"],
     source: "https://github.com/Andreyhuey/analytics",
     visit: "https://analytics-tan.vercel.app",
     figma:
       "https://www.figma.com/file/hPQBhpRoTo77PGwV3tJhJ8/Tract-Social-Web-%26-Responsive?type=design&node-id=1-5318&mode=design&t=KFBCrvXM5FoBWADD-0",
-    id: 3,
+    id: 4,
   },
 
   {
     title: "Evobank",
     description: "",
     image: evobank,
-    tags: ["React", "TypeScript", "TailwindCSS"],
-    type: "Design to Code, API Integration",
+    tools: ["React", "TypeScript", "TailwindCSS"],
+    type: ["Front End"],
+    tags: "Design to Code, API Integration",
     source: "https://github.com",
     visit: "https://evob.vercel.app/",
-    id: 3,
+    figma: "",
+    id: 5,
   },
   {
     title: "Medilifi",
     description: "",
     image: medilifi,
-    tags: ["React", "Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
-    type: "Design to Code, API Integration",
+    tools: ["React", "Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
+    type: ["Front End", "API", "Back End", "Hardware"],
+    tags: "Design to Code, API Integration",
     source: "https://github.com",
     visit: "https://medilifi.vercel.app/",
-    id: 3,
+    figma: "",
+    id: 6,
   },
 ];
 
@@ -135,11 +149,11 @@ export const projects = [
 import api from "../assets/tools/api.png";
 import bootstrap from "../assets/tools/bootstrap.png";
 import firebase from "../assets/tools/firebase.svg";
-import git from "../assets/tools/git.png";
-import github from "../assets/tools/github.png";
+// import git from "../assets/tools/git.png";
+// import github from "../assets/tools/github.png";
+// import tailwind from "../assets/tools/tailwind.png";
 import react from "../assets/tools/react.png";
 import sanity from "../assets/tools/sanity.svg";
-import tailwind from "../assets/tools/tailwind.png";
 
 export const tools = [
   {
@@ -154,77 +168,81 @@ export const tools = [
     title: "Firebase",
     image: firebase,
   },
-  {
-    title: "Git",
-    image: git,
-  },
-  {
-    title: "Github",
-    image: github,
-  },
+  // {
+  //   title: "Git",
+  //   image: "git",
+  // },
+  // {
+  //   title: "Github",
+  //   image: "github",
+  // },
   {
     title: "React",
     image: react,
   },
-  {
-    title: "ReduxToolkit",
-    image: "../assets/react.png",
-  },
-  {
-    title: "Express",
-    image: "",
-  },
-  {
-    title: "NodeJs",
-    image: "",
-  },
-  { title: "Vercel", image: "" },
-  {
-    title: "MongoDb",
-    image: "",
-  },
-  {
-    title: "Postman",
-    image: "",
-  },
-  {
-    title: "PHP",
-    image: "",
-  },
-  {
-    title: "Hostinger",
-    image: "",
-  },
-  {
-    title: "RapidApi",
-    image: "",
-  },
-  {
-    title: "EmailJs",
-    image: "",
-  },
-  {
-    title: "CRUD",
-    image: "",
-  },
-  {
-    title: "GraphQl",
-    image: "",
-  },
-  {
-    title: "NextJs",
-    image: "../assets/react.png",
-  },
+  // {
+  //   title: "ReduxToolkit",
+  //   image: "../assets/react.png",
+  // },
+  // {
+  //   title: "Express",
+  //   image: "",
+  // },
+  // {
+  //   title: "NodeJs",
+  //   image: "",
+  // },
+  // { title: "Vercel", image: "" },
+  // {
+  //   title: "MongoDb",
+  //   image: "",
+  // },
+  // {
+  //   title: "Postman",
+  //   image: "",
+  // },
+  // {
+  //   title: "PHP",
+  //   image: "",
+  // },
+  // {
+  //   title: "Hostinger",
+  //   image: "",
+  // },
+  // {
+  //   title: "RapidApi",
+  //   image: "",
+  // },
+  // {
+  //   title: "EmailJs",
+  //   image: "",
+  // },
+  // {
+  //   title: "CRUD",
+  //   image: "",
+  // },
+  // {
+  //   title: "GraphQl",
+  //   image: "",
+  // },
+  // {
+  //   title: "NextJs",
+  //   image: "../assets/react.png",
+  // },
+  // {
+  //   title: "TypeScript",
+  //   image: "../assets/tailwind.png",
+  // },
   {
     title: "Sanity",
     image: sanity,
   },
-  {
-    title: "TailwindCSS",
-    image: tailwind,
-  },
-  {
-    title: "TypeScript",
-    image: "../assets/tailwind.png",
-  },
+  // {
+  //   title: "TailwindCSS",
+  //   image: tailwind,
+  // },
+  // {
+  //   title: "Zustand",
+  //   image: zustand,
+  // },
 ];

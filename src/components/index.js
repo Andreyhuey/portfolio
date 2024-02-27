@@ -7,5 +7,17 @@ import Services from "./Services";
 import Work from "./Work";
 import Zoho from "./Zoho";
 import Tools from "./Tools";
+import Card from "./Card";
 
-export { About, Nav, Banner, Contact, Header, Services, Work, Zoho, Tools };
+export {
+  About,
+  Nav,
+  Banner,
+  Contact,
+  Header,
+  Services,
+  Work,
+  Zoho,
+  Tools,
+  Card,
+};

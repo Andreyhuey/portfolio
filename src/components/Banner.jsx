@@ -26,11 +26,13 @@ export default function Banner() {
                 sequence={[
                   "Software Engineer",
                   2000,
-                  "Backend Engineer",
-                  2000,
                   "API developer",
                   2000,
                   "Front-End Developer",
+                  2000,
+                  "Backend Developer",
+                  2000,
+                  "Technical Writer",
                   2000,
                 ]}
                 speed={40}
