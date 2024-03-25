@@ -21,7 +21,7 @@ export default function Services() {
           >
             <h2 className="h1 text-accent mb-6">What I Do</h2>
             <h3 className="h3 max-w-[455px] mb-16 text-center lg:text-start ">
-              A software developer with over four years of freelance & two years
+              A software developer with over three years of freelance & two years
               of professional experience.
             </h3>
             <Image src={ab} alt="about" />

@@ -143,6 +143,30 @@ export const projects = [
     figma: "",
     id: 6,
   },
+  {
+    title: "Mock-Api",
+    description:
+      "A node.js based solution tailored for front-end developers seeking rapid and dependable mock API services. designed to bridge the gap between UI development and back-end readiness.",
+    image: medilifi,
+    tools: ["node.js", "fakerjs", "fs", "json-schema", "json-schema-faker"],
+    type: ["API", "Back End"],
+    tags: "Design to Code, API Integration",
+    source: "https://github.com/andreyhuey/mock-api",
+    visit: "https://github.com/andreyhuey/mock-api",
+    id: 7,
+  },
+  {
+    title: "Bookshelf-Manager",
+    description:
+      "A web based project built with MongoDB, Express.js, React & Node.js (M.E.R.N)",
+    image: medilifi,
+    tools: ["node.js", "fakerjs", "fs", "json-schema", "json-schema-faker"],
+    type: ["API", "Back End"],
+    tags: "Design to Code, API Integration",
+    source: "https://github.com/andreyhuey/mock-api",
+    visit: "https://github.com/andreyhuey/mock-api",
+    id: 7,
+  },
 ];
 
 // tool images
@@ -180,6 +204,10 @@ export const tools = [
     title: "React",
     image: react,
   },
+  // {
+  //   title: "Docker",
+  //   image: docker
+  // }
   // {
   //   title: "ReduxToolkit",
   //   image: "../assets/react.png",

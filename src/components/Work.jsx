@@ -67,6 +67,7 @@ export default function Work() {
                   ))}
               </>
             )}
+            
             {type === 3 && (
               <>
                 {projects
