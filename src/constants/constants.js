@@ -62,6 +62,8 @@ import socialTract from "../assets/social-tract.png";
 import analytics from "../assets/analytics.png";
 import evobank from "../assets/evobank-home.png";
 import medilifi from "../assets/medilifi.png";
+import bookstore from "../assets/bookstore.png";
+import mockapi from "../assets/mock-api.png";
 
 export const projects = [
   {
@@ -126,7 +128,7 @@ export const projects = [
     tools: ["React", "TypeScript", "TailwindCSS"],
     type: ["Front End"],
     tags: "Design to Code, API Integration",
-    source: "https://github.com",
+    source: "https://github.com/Andreyhuey/evobank",
     visit: "https://evob.vercel.app/",
     figma: "",
     id: 5,
@@ -138,7 +140,7 @@ export const projects = [
     tools: ["React", "Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
     type: ["Front End", "API", "Back End", "Hardware"],
     tags: "Design to Code, API Integration",
-    source: "https://github.com",
+    source: "https://github.com/Andreyhuey/medilifi",
     visit: "https://medilifi.vercel.app/",
     figma: "",
     id: 6,
@@ -147,7 +149,7 @@ export const projects = [
     title: "Mock-Api",
     description:
       "A node.js based solution tailored for front-end developers seeking rapid and dependable mock API services. designed to bridge the gap between UI development and back-end readiness.",
-    image: medilifi,
+    image: mockapi,
     tools: ["node.js", "fakerjs", "fs", "json-schema", "json-schema-faker"],
     type: ["API", "Back End"],
     tags: "Design to Code, API Integration",
@@ -156,15 +158,15 @@ export const projects = [
     id: 7,
   },
   {
-    title: "Bookshelf-Manager",
+    title: "Bookstore",
     description:
-      "A web based project built with MongoDB, Express.js, React & Node.js (M.E.R.N)",
-    image: medilifi,
-    tools: ["node.js", "fakerjs", "fs", "json-schema", "json-schema-faker"],
-    type: ["API", "Back End"],
+      "A web based project built with MongoDB, Express.js, React & Node.js (M.E.R.N) that enables users to list, add, update, and delete books",
+    image: bookstore,
+    tools: ["node.js", "express", "mongodb", "react", "TailwindCSS"],
+    type: ["Front End", "API", "Back End"],
     tags: "Design to Code, API Integration",
-    source: "https://github.com/andreyhuey/mock-api",
-    visit: "https://github.com/andreyhuey/mock-api",
+    source: "https://github.com/Andreyhuey/bookstore",
+    visit: "https://bookstore-frontend-taupe.vercel.app/",
     id: 7,
   },
 ];
