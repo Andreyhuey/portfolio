@@ -64,6 +64,7 @@ import evobank from "../assets/evobank-home.png";
 import medilifi from "../assets/medilifi.png";
 import bookstore from "../assets/bookstore.png";
 import mockapi from "../assets/mock-api.png";
+import animevault from "../assets/animevault.png";
 
 export const projects = [
   {
@@ -73,7 +74,7 @@ export const projects = [
     image: marvel,
     tools: ["React", "TailwindCSS", "Redux-toolkit"],
     tags: "API Integration, State Management",
-    type: ["Front End", "API", "Back End"],
+    type: ["Front End", "API"],
     source: "https://github.com/Andreyhuey/marvelverse",
     visit: "https://marvel-verse-app.netlify.app/events",
     figma: "",
@@ -81,7 +82,7 @@ export const projects = [
   },
   {
     title: "VortexGlide",
-    description: "A gaming website advertising services for interested clients",
+    description: "A Landing page for a gaming website advertising services for interested clients",
     image: vortexGlide,
     tools: ["NextJs", "TypeScript", "TailwindCSS"],
     tags: "Design To Code",
@@ -95,7 +96,7 @@ export const projects = [
   {
     title: "SocialTract",
     description:
-      "A social & corporate domain for connecting with people all around the world",
+      "A Landing page for a social & corporate domain for connecting with people all around the world",
     image: socialTract,
     tools: ["Nextjs", "TypeScript", "TailwindCSS"],
     tags: "Design To Code",
@@ -123,7 +124,7 @@ export const projects = [
 
   {
     title: "Evobank",
-    description: "",
+    description: "A landing page for a banking web application",
     image: evobank,
     tools: ["React", "TypeScript", "TailwindCSS"],
     type: ["Front End"],
@@ -135,9 +136,9 @@ export const projects = [
   },
   {
     title: "Medilifi",
-    description: "",
+    description: "My final year thesis centerd around a light fidelity patient monitoring device that monitors the vitals (temperature, heart rate and oxygen saturation levels) of a patient",
     image: medilifi,
-    tools: ["React", "Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
+    tools: ["Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
     type: ["Front End", "API", "Back End", "Hardware"],
     tags: "Design to Code, API Integration",
     source: "https://github.com/Andreyhuey/medilifi",
@@ -150,7 +151,14 @@ export const projects = [
     description:
       "A node.js based solution tailored for front-end developers seeking rapid and dependable mock API services. designed to bridge the gap between UI development and back-end readiness.",
     image: mockapi,
-    tools: ["node.js", "fakerjs", "fs", "json-schema", "json-schema-faker"],
+    tools: [
+      "node.js",
+      "fakerjs",
+      "fs",
+      "json-schema",
+      "json-schema-faker",
+      "json-server",
+    ],
     type: ["API", "Back End"],
     tags: "Design to Code, API Integration",
     source: "https://github.com/andreyhuey/mock-api",
@@ -167,7 +175,19 @@ export const projects = [
     tags: "Design to Code, API Integration",
     source: "https://github.com/Andreyhuey/bookstore",
     visit: "https://bookstore-frontend-taupe.vercel.app/",
-    id: 7,
+    id: 8,
+  },
+  {
+    title: "Anime Vault",
+    description:
+      "A modern Next 14 Server Side App built with Server Actions, Infinite Scroll & Framer Motion Animations developed during my nextjs dev journey",
+    image: animevault,
+    tools: ["TypeScript", "TailwindCSS", "Nextjs"],
+    type: ["Front End", "API"],
+    tags: "Dev Journey, API Integration",
+    source: "https://github.com/Andreyhuey/anime_vault",
+    visit: "https://anime-vault-seven-mu.vercel.app/",
+    id: 9,
   },
 ];
 

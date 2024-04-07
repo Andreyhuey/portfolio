@@ -43,9 +43,18 @@ export default function Work() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {type === 0 && (
               <>
-                {projects?.map((project, index) => {
-                  return <Card project={project} index={index} key={index} />;
-                })}
+                {projects &&
+                  [...Array(projects.length)].map((_, index) => {
+                    const reversedIndex = projects.length - 1 - index;
+                    const project = projects[reversedIndex];
+                    return (
+                      <Card
+                        project={project}
+                        index={reversedIndex}
+                        key={reversedIndex}
+                      />
+                    );
+                  })}
               </>
             )}
 
@@ -53,28 +62,55 @@ export default function Work() {
               <>
                 {projects
                   ?.filter((project) => project?.type?.includes("Front End"))
-                  ?.map((project, index) => (
-                    <Card key={index} project={project} index={index} />
-                  ))}
+                  .slice()
+                  .reverse()
+                  .map((project, index, array) => {
+                    const reversedIndex = array.length - 1 - index;
+                    return (
+                      <Card
+                        key={reversedIndex}
+                        project={project}
+                        index={reversedIndex}
+                      />
+                    );
+                  })}
               </>
             )}
             {type === 2 && (
               <>
                 {projects
                   ?.filter((project) => project?.type?.includes("Back End"))
-                  ?.map((project, index) => (
-                    <Card key={index} project={project} index={index} />
-                  ))}
+                  .slice()
+                  .reverse()
+                  ?.map((project, index, array) => {
+                    const reversedIndex = array.length - 1 - index;
+                    return (
+                      <Card
+                        key={reversedIndex}
+                        project={project}
+                        index={reversedIndex}
+                      />
+                    );
+                  })}
               </>
             )}
-            
+
             {type === 3 && (
               <>
                 {projects
                   ?.filter((project) => project?.type?.includes("API"))
-                  ?.map((project, index) => (
-                    <Card key={index} project={project} index={index} />
-                  ))}
+                  .slice()
+                  .reverse()
+                  ?.map((project, index, array) => {
+                    const reversedIndex = array.length - 1 - index;
+                    return (
+                      <Card
+                        key={reversedIndex}
+                        project={project}
+                        index={reversedIndex}
+                      />
+                    );
+                  })}
               </>
             )}
           </div>
