@@ -209,6 +209,7 @@ import nextjs from "../assets/tools/nextjs.svg"
 import graphql from "../assets/tools/graphql.svg"
 import docker from "../assets/tools/docker.svg"
 import redux from "../assets/tools/redux.svg"
+import wordpress from "../assets/tools/wordpress.svg"
 import php from "../assets/tools/php.svg"
 import python from "../assets/tools/python.svg"
 import flask from "../assets/tools/flask.svg"
@@ -285,6 +286,10 @@ export const tools = [
   {
     title: "PHP",
     image: php,
+  },
+  {
+    title: "Wordpress",
+    image: wordpress
   },
   {
     title: "Python",
