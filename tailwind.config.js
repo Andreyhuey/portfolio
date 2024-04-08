@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        "loop-scroll": "loop-scroll 30s linear infinite"
+        "loop-scroll": "loop-scroll 15s linear infinite"
       },
       keyframes:{
         "loop-scroll": {
