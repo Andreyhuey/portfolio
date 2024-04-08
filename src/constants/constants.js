@@ -220,15 +220,15 @@ import visualstudio from "../assets/tools/visual-studio.svg"
 export const tools = [
   {
     title: "HTML5",
-    image: html
+    image: html,
   },
   {
     title: "Bootstrap",
     image: bootstrap,
   },
   {
-    title: "Firebase",
-    image: firebase,
+    title: "TailwindCSS",
+    image: tailwind,
   },
   {
     title: "Git",
@@ -239,12 +239,16 @@ export const tools = [
     image: github,
   },
   {
+    title: "GraphQl",
+    image: graphql,
+  },
+  {
     title: "Mysql",
-    image: mysql
+    image: mysql,
   },
   {
     title: "postgres",
-    image: postgres
+    image: postgres,
   },
   {
     title: "MongoDb",
@@ -264,7 +268,11 @@ export const tools = [
   },
   {
     title: "NextJs",
-    image: nextjs
+    image: nextjs,
+  },
+  {
+    title: "TypeScript",
+    image: typescript,
   },
   {
     title: "Docker",
@@ -280,27 +288,19 @@ export const tools = [
   },
   {
     title: "Python",
-    image: python
+    image: python,
   },
   {
     title: "Flask",
-    image: flask
+    image: flask,
   },
   {
     title: "Django",
-    image: django
+    image: django,
   },
   {
-    title: "GraphQl",
-    image: graphql,
-  },
-  {
-    title: "TypeScript",
-    image: typescript,
-  },
-  {
-    title: "TailwindCSS",
-    image: tailwind,
+    title: "Firebase",
+    image: firebase,
   },
   {
     title: "Visual Studio",

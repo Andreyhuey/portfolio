@@ -14,12 +14,12 @@ module.exports = {
     },
     extend: {
       animation: {
-        "loop-scroll": "loop-scroll 15s linear infinite"
+        "loop-scroll": "loop-scroll 25s ease-in-out infinite"
       },
       keyframes:{
         "loop-scroll": {
           from: {transform: "translateX(0)"},
-          to: {transform: "translateX(-120%)"}
+          to: {transform: "translateX(-160%)"}
         }
       },
       colors: {
