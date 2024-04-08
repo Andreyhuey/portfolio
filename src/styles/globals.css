@@ -40,6 +40,12 @@
   border-radius: 100%;
 }
 
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
+
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;

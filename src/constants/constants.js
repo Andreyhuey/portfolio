@@ -192,19 +192,35 @@ export const projects = [
 ];
 
 // tool images
-import api from "../assets/tools/api.png";
-import bootstrap from "../assets/tools/bootstrap.png";
+
+import html from "../assets/tools/html.svg"
+import bootstrap from "../assets/tools/bootstrap.svg";
+import tailwind from "../assets/tools/tailwindcss.svg";
 import firebase from "../assets/tools/firebase.svg";
-// import git from "../assets/tools/git.png";
-// import github from "../assets/tools/github.png";
-// import tailwind from "../assets/tools/tailwind.png";
-import react from "../assets/tools/react.png";
-import sanity from "../assets/tools/sanity.svg";
+import git from "../assets/tools/git.svg";
+import github from "../assets/tools/github.svg";
+import mysql from "../assets/tools/mysql.svg";
+import postgres from "../assets/tools/postgres.svg";
+import mongodb from "../assets/tools/mongodb.svg"
+import expressjs from "../assets/tools/expressjs.svg"
+import react from "../assets/tools/react.svg";
+import node from "../assets/tools/nodejs.svg"
+import nextjs from "../assets/tools/nextjs.svg"
+import graphql from "../assets/tools/graphql.svg"
+import docker from "../assets/tools/docker.svg"
+import redux from "../assets/tools/redux.svg"
+import php from "../assets/tools/php.svg"
+import python from "../assets/tools/python.svg"
+import flask from "../assets/tools/flask.svg"
+import django from "../assets/tools/django.svg"
+import typescript from "../assets/tools/typescript.svg"
+import visualstudio from "../assets/tools/visual-studio.svg"
+// import sanity from "../assets/tools/sanity.svg";
 
 export const tools = [
   {
-    title: "API",
-    image: api,
+    title: "HTML5",
+    image: html
   },
   {
     title: "Bootstrap",
@@ -214,85 +230,80 @@ export const tools = [
     title: "Firebase",
     image: firebase,
   },
-  // {
-  //   title: "Git",
-  //   image: "git",
-  // },
-  // {
-  //   title: "Github",
-  //   image: "github",
-  // },
+  {
+    title: "Git",
+    image: git,
+  },
+  {
+    title: "Github",
+    image: github,
+  },
+  {
+    title: "Mysql",
+    image: mysql
+  },
+  {
+    title: "postgres",
+    image: postgres
+  },
+  {
+    title: "MongoDb",
+    image: mongodb,
+  },
+  {
+    title: "Express",
+    image: expressjs,
+  },
   {
     title: "React",
     image: react,
   },
-  // {
-  //   title: "Docker",
-  //   image: docker
-  // }
-  // {
-  //   title: "ReduxToolkit",
-  //   image: "../assets/react.png",
-  // },
-  // {
-  //   title: "Express",
-  //   image: "",
-  // },
-  // {
-  //   title: "NodeJs",
-  //   image: "",
-  // },
-  // { title: "Vercel", image: "" },
-  // {
-  //   title: "MongoDb",
-  //   image: "",
-  // },
-  // {
-  //   title: "Postman",
-  //   image: "",
-  // },
-  // {
-  //   title: "PHP",
-  //   image: "",
-  // },
-  // {
-  //   title: "Hostinger",
-  //   image: "",
-  // },
-  // {
-  //   title: "RapidApi",
-  //   image: "",
-  // },
-  // {
-  //   title: "EmailJs",
-  //   image: "",
-  // },
-  // {
-  //   title: "CRUD",
-  //   image: "",
-  // },
-  // {
-  //   title: "GraphQl",
-  //   image: "",
-  // },
-  // {
-  //   title: "NextJs",
-  //   image: "../assets/react.png",
-  // },
-  // {
-  //   title: "TypeScript",
-  //   image: "../assets/tailwind.png",
-  // },
   {
-    title: "Sanity",
-    image: sanity,
+    title: "NodeJs",
+    image: node,
   },
-  // {
-  //   title: "TailwindCSS",
-  //   image: tailwind,
-  // },
-  // {
-  //   title: "Zustand",
-  //   image: zustand,
-  // },
+  {
+    title: "NextJs",
+    image: nextjs
+  },
+  {
+    title: "Docker",
+    image: docker,
+  },
+  {
+    title: "ReduxToolkit",
+    image: redux,
+  },
+  {
+    title: "PHP",
+    image: php,
+  },
+  {
+    title: "Python",
+    image: python
+  },
+  {
+    title: "Flask",
+    image: flask
+  },
+  {
+    title: "Django",
+    image: django
+  },
+  {
+    title: "GraphQl",
+    image: graphql,
+  },
+  {
+    title: "TypeScript",
+    image: typescript,
+  },
+  {
+    title: "TailwindCSS",
+    image: tailwind,
+  },
+  {
+    title: "Visual Studio",
+    image: visualstudio,
+  },
 ];
