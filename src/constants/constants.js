@@ -207,6 +207,7 @@ import react from "../assets/tools/react.svg";
 import node from "../assets/tools/nodejs.svg"
 import nextjs from "../assets/tools/nextjs.svg"
 import graphql from "../assets/tools/graphql.svg"
+import prisma from "../assets/tools/prisma.svg"
 import docker from "../assets/tools/docker.svg"
 import redux from "../assets/tools/redux.svg"
 import wordpress from "../assets/tools/wordpress.svg"
@@ -242,6 +243,10 @@ export const tools = [
   {
     title: "GraphQl",
     image: graphql,
+  },
+  {
+    title: "Prisma",
+    image: prisma,
   },
   {
     title: "Mysql",
@@ -289,7 +294,7 @@ export const tools = [
   },
   {
     title: "Wordpress",
-    image: wordpress
+    image: wordpress,
   },
   {
     title: "Python",

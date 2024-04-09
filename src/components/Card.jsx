@@ -21,7 +21,7 @@ const Card = ({ project, index }) => {
       <div className="absolute -bottom-full p-8 group-hover:bottom-0 md:group-hover:bottom-5 transition-all duration-500 z-50 flex flex-col gap-y-4 w-full">
         <span className="text-3xl text-gradient font-bold">{title}</span>
 
-        <span className="text-white hidden md:flex">{description}</span>
+        <span className="text-white hidden lg:flex">{description}</span>
 
         <span className="flex gap-2 w-fit items-center">
           {tools.map((tool, index) => (

@@ -14,7 +14,7 @@ export default function Work() {
   const projectTypes = ["All", "Front-End", "Backend", "APIs"];
 
   return (
-    <section className="section" id="work">
+    <section className="section w-fit" id="work">
       <div className="sm:container mx-auto">
         <div className="">
           <div className="flex flex-col items-center justify-center gap-y-12 text-center">
@@ -24,7 +24,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center gap-5 py-10 px-2">
+          <div className="flex items-center justify-center gap-5 py-10 px-2 w-fit">
             {projectTypes.map((item, i) => (
               <button
                 key={i}
@@ -32,7 +32,7 @@ export default function Work() {
                 className={` ${
                   type === i
                     ? "btn btn-lg"
-                    : "text-gradient btn-link cursor-pointer"
+                    : "text-gradient btn-link cursor-pointer w-fit"
                 }`}
               >
                 {item}
