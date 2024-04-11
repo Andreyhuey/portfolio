@@ -14,7 +14,7 @@ export default function Work() {
   const projectTypes = ["All", "Front-End", "Backend", "APIs"];
 
   return (
-    <section className="section w-fit" id="work">
+    <section className="section" id="work">
       <div className="sm:container mx-auto">
         <div className="">
           <div className="flex flex-col items-center justify-center gap-y-12 text-center">
@@ -24,7 +24,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center gap-5 py-10 px-2 w-fit">
+          <div className="flex items-center justify-center gap-5 py-10 px-2 w-full">
             {projectTypes.map((item, i) => (
               <button
                 key={i}
@@ -40,7 +40,7 @@ export default function Work() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full items-center justify-center">
             {type === 0 && (
               <>
                 {projects &&

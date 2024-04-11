@@ -98,6 +98,7 @@ export default function Banner() {
             src={Avatar}
             alt="avatar"
             className="rounded-3xl flex-1 lg:max-w-[482px] mx-auto order-1 lg:order-2"
+            priority
           />
         </div>
       </div>

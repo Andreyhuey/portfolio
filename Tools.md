@@ -14,7 +14,7 @@ Below are a couple of technologies, stacks and links i frequent in bringing my i
 
 ### JavaScript
 
-![React](./src/assets/tools/react.svg) ![node](./src/assets/tools/nodejs.svg) ![Nextjs](./src/assets/tools/nextjs.svg) ![Express](./src/assets/tools/expressjs.svg) ![Typescript](./src/assets/tools/typescript.svg)
+![Javascript](./src/assets/tools/javascript.svg) ![React](./src/assets/tools/react.svg) ![node](./src/assets/tools/nodejs.svg) ![Nextjs](./src/assets/tools/nextjs.svg) ![Express](./src/assets/tools/expressjs.svg) ![Typescript](./src/assets/tools/typescript.svg)
 
 ### Databases
 

@@ -66,6 +66,34 @@ import bookstore from "../assets/bookstore.png";
 import mockapi from "../assets/mock-api.png";
 import animevault from "../assets/animevault.png";
 
+// Website tools
+import html from "../assets/tools/html.svg";
+import bootstrap from "../assets/tools/bootstrap.svg";
+import tailwind from "../assets/tools/tailwindcss.svg";
+import firebase from "../assets/tools/firebase.svg";
+import git from "../assets/tools/git.svg";
+import github from "../assets/tools/github.svg";
+import mysql from "../assets/tools/mysql.svg";
+import postgres from "../assets/tools/postgres.svg";
+import javascript from "../assets/tools/javascript.svg";
+import mongodb from "../assets/tools/mongodb.svg";
+import expressjs from "../assets/tools/expressjs.svg";
+import react from "../assets/tools/react.svg";
+import node from "../assets/tools/nodejs.svg";
+import nextjs from "../assets/tools/nextjs.svg";
+import graphql from "../assets/tools/graphql.svg";
+import prisma from "../assets/tools/prisma.svg";
+import docker from "../assets/tools/docker.svg";
+import redux from "../assets/tools/redux.svg";
+import wordpress from "../assets/tools/wordpress.svg";
+import php from "../assets/tools/php.svg";
+import python from "../assets/tools/python.svg";
+import flask from "../assets/tools/flask.svg";
+import django from "../assets/tools/django.svg";
+import typescript from "../assets/tools/typescript.svg";
+import visualstudio from "../assets/tools/visual-studio.svg";
+
+
 export const projects = [
   {
     title: "MarvelVerse",
@@ -73,6 +101,7 @@ export const projects = [
       "Marvel's vast collection of characters, comics, creators, events, series and stories.",
     image: marvel,
     tools: ["React", "TailwindCSS", "Redux-toolkit"],
+    icons:[react, tailwind, redux],
     tags: "API Integration, State Management",
     type: ["Front End", "API"],
     source: "https://github.com/Andreyhuey/marvelverse",
@@ -193,31 +222,7 @@ export const projects = [
 
 // tool images
 
-import html from "../assets/tools/html.svg"
-import bootstrap from "../assets/tools/bootstrap.svg";
-import tailwind from "../assets/tools/tailwindcss.svg";
-import firebase from "../assets/tools/firebase.svg";
-import git from "../assets/tools/git.svg";
-import github from "../assets/tools/github.svg";
-import mysql from "../assets/tools/mysql.svg";
-import postgres from "../assets/tools/postgres.svg";
-import mongodb from "../assets/tools/mongodb.svg"
-import expressjs from "../assets/tools/expressjs.svg"
-import react from "../assets/tools/react.svg";
-import node from "../assets/tools/nodejs.svg"
-import nextjs from "../assets/tools/nextjs.svg"
-import graphql from "../assets/tools/graphql.svg"
-import prisma from "../assets/tools/prisma.svg"
-import docker from "../assets/tools/docker.svg"
-import redux from "../assets/tools/redux.svg"
-import wordpress from "../assets/tools/wordpress.svg"
-import php from "../assets/tools/php.svg"
-import python from "../assets/tools/python.svg"
-import flask from "../assets/tools/flask.svg"
-import django from "../assets/tools/django.svg"
-import typescript from "../assets/tools/typescript.svg"
-import visualstudio from "../assets/tools/visual-studio.svg"
-// import sanity from "../assets/tools/sanity.svg";
+
 
 export const tools = [
   {
@@ -231,6 +236,22 @@ export const tools = [
   {
     title: "TailwindCSS",
     image: tailwind,
+  },
+  {
+    title: "javascript",
+    image: javascript,
+  },
+  {
+    title: "TypeScript",
+    image: typescript,
+  },
+  {
+    title: "PHP",
+    image: php,
+  },
+  {
+    title: "Python",
+    image: python,
   },
   {
     title: "Git",
@@ -256,6 +277,7 @@ export const tools = [
     title: "postgres",
     image: postgres,
   },
+
   {
     title: "MongoDb",
     image: mongodb,
@@ -276,10 +298,7 @@ export const tools = [
     title: "NextJs",
     image: nextjs,
   },
-  {
-    title: "TypeScript",
-    image: typescript,
-  },
+
   {
     title: "Docker",
     image: docker,
@@ -289,17 +308,10 @@ export const tools = [
     image: redux,
   },
   {
-    title: "PHP",
-    image: php,
-  },
-  {
     title: "Wordpress",
     image: wordpress,
   },
-  {
-    title: "Python",
-    image: python,
-  },
+
   {
     title: "Flask",
     image: flask,
