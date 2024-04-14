@@ -14,10 +14,11 @@ export default function Home() {
       <div className=" bg-gray-900 text-white overflow-hidden xs:p-2">
         <Header />
         <Banner />
-        <About />
-        <Services />
         <Tools />
         <Work />
+        <About />
+        <Services />
+
         <Contact />
       </div>
     </>
