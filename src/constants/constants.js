@@ -34,7 +34,7 @@ export const services = [
 
   {
     id: 1,
-    name: "Backend-as-a-service",
+    name: "Software as a service (SaaS)",
     description:
       "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
     link: "Learn More",
@@ -93,7 +93,6 @@ import django from "../assets/tools/django.svg";
 import typescript from "../assets/tools/typescript.svg";
 import visualstudio from "../assets/tools/visual-studio.svg";
 
-
 export const projects = [
   {
     title: "MarvelVerse",
@@ -101,7 +100,7 @@ export const projects = [
       "Marvel's vast collection of characters, comics, creators, events, series and stories.",
     image: marvel,
     tools: ["React", "TailwindCSS", "Redux-toolkit"],
-    icons:[react, tailwind, redux],
+    icons: [react, tailwind, redux],
     tags: "API Integration, State Management",
     type: ["Front End", "API"],
     source: "https://github.com/Andreyhuey/marvelverse",
@@ -111,7 +110,8 @@ export const projects = [
   },
   {
     title: "VortexGlide",
-    description: "A Landing page for a gaming website advertising services for interested clients",
+    description:
+      "A Landing page for a gaming website advertising services for interested clients",
     image: vortexGlide,
     tools: ["NextJs", "TypeScript", "TailwindCSS"],
     tags: "Design To Code",
@@ -165,7 +165,8 @@ export const projects = [
   },
   {
     title: "Medilifi",
-    description: "My final year thesis centerd around a light fidelity patient monitoring device that monitors the vitals (temperature, heart rate and oxygen saturation levels) of a patient",
+    description:
+      "My final year thesis centerd around a light fidelity patient monitoring device that monitors the vitals (temperature, heart rate and oxygen saturation levels) of a patient",
     image: medilifi,
     tools: ["Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
     type: ["Front End", "API", "Back End", "Hardware"],
@@ -221,8 +222,6 @@ export const projects = [
 ];
 
 // tool images
-
-
 
 export const tools = [
   {

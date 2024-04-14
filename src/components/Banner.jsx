@@ -47,10 +47,11 @@ export default function Banner() {
               </p>{" "}
               <br />
               <p>
-                Step into my world of code and creativity, where pixels come
-                alive and ideas turn into digital realities. I&apos;m thrilled
-                to have you here, exploring my skills, projects, and passion for
-                pragmatic technology.
+                Step into my world where creativity meets functionality, and
+                every line of code tells a story. As a software engineer,
+                I&apos;m fueled by a passion for crafting seamless digital
+                experiences, whether it&apos;s through pixel-perfect front-end
+                designs or robust back-end solutions.
               </p>
             </div>
             <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
