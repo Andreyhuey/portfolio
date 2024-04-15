@@ -17,11 +17,11 @@ export default function Banner() {
       <div className="sm:container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
-          <div className="flex-1 text-center font-secondary lg:text-left order-2 lg:order-1">
-            <h1 className="text-[35px] font-bold leading-[0.8] lg:text-[45px] mb-1">
+          <div className="flex-1 text-center font-secondary lg:text-left order-2 lg:order-1 flex flex-col gap-8">
+            <h1 className="text-[35px] font-bold leading-[0.8] lg:text-[45px]">
               OLUWADARA <span>OLA-OBAADO</span>
             </h1>
-            <div className="mb-6 flex flex-col items-center justify-center lg:justify-start lg:items-start lg:text-start text-[36px] h-14 pt-3 lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
+            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start lg:text-start text-[36px] h-14 pt-3 lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
               <TypeAnimation
                 sequence={[
                   "Software Engineer",
@@ -41,10 +41,8 @@ export default function Banner() {
                 repeat={Infinity}
               />
             </div>
-            <div className="mb-8 max-w-lg mx-auto lg:mx-0 font-semibold">
-              <p className="my-2">
-                Hello!, Welcome to my developer portfolio 🚀
-              </p>{" "}
+            <div className="max-w-lg mx-auto lg:mx-0 font-semibold">
+              <p>Hello!, Welcome to my developer portfolio 🚀</p>
               <br />
               <p>
                 Step into my world where creativity meets functionality, and
@@ -54,22 +52,9 @@ export default function Banner() {
                 designs or robust back-end solutions.
               </p>
             </div>
-            <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-              <Link to="contact" smooth={true} spy={true} offset={-200}>
-                <button className="btn btn-lg">Contact Me</button>
-              </Link>
-              <Link
-                to="work"
-                smooth={true}
-                spy={true}
-                offset={-200}
-                className="text-gradient btn-link cursor-pointer"
-              >
-                My Portfolio
-              </Link>
-            </div>
+
             {/* socials */}
-            <div className="flex lg:text-[20px] gap-x-10 lg:gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-300 lg:max">
+            <div className="flex max-w-max lg:text-[20px] gap-x-10 md:gap-x-8 mx-auto lg:mx-0 text-slate-300 ">
               <a
                 href="https://www.linkedin.com/in/oluwadara-ola-obaado-64b5511b4/"
                 target="_blank"
@@ -91,6 +76,21 @@ export default function Banner() {
               >
                 <FaTwitter className="text-5xl lg:text-4xl" />
               </a>
+            </div>
+            {/*buttons*/}
+            <div className="flex max-w-max gap-x-6 items-center mx-auto lg:mx-0">
+              <Link to="contact" smooth={true} spy={true} offset={-200}>
+                <button className="btn btn-lg">Contact Me</button>
+              </Link>
+              <Link
+                to="work"
+                smooth={true}
+                spy={true}
+                offset={-200}
+                className="text-gradient btn-link cursor-pointer"
+              >
+                My Portfolio
+              </Link>
             </div>
           </div>
           {/* image */}

@@ -13,15 +13,6 @@ module.exports = {
       tertiary: "Aldrich",
     },
     extend: {
-      animation: {
-        "loop-scroll": "loop-scroll 25s ease-in-out infinite"
-      },
-      keyframes:{
-        "loop-scroll": {
-          from: {transform: "translateX(0)"},
-          to: {transform: "translateX(-100%)"}
-        }
-      },
       colors: {
         primary: "#0a0a0a",
         accent: "#B809C3",
