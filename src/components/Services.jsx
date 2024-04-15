@@ -8,6 +8,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 import Image from "next/image";
 
 import { services } from "../constants/constants";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -21,8 +22,8 @@ export default function Services() {
           >
             <h2 className="h1 text-accent mb-6">What I Do</h2>
             <h3 className="h3 max-w-[455px] mb-16 text-center lg:text-start ">
-              A software developer with over three years of freelance & two years
-              of professional experience.
+              A software developer with over three years of freelance & two
+              years of professional experience.
             </h3>
             <Image src={ab} alt="about" />
             {/* <div className="mx-auto lg:justify-center lg:align-center ">
@@ -35,11 +36,11 @@ export default function Services() {
               {services &&
                 services.map((service, index) => {
                   // destructure service
-                  const { name, description, link, id } = service;
+                  const { name, description, link } = service;
                   return (
                     <div
                       className="border-b border-white h-auto pb-3 mb-[38px] flex"
-                      key={id}
+                      key={index}
                     >
                       <div className="max-w-[476px]">
                         <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
@@ -50,15 +51,13 @@ export default function Services() {
                         </p>
                       </div>
                       <div className="flex flex-col flex-1 items-end">
-                        <a
-                          href="#"
+                        <Link
+                          href={link}
+                          target="_blank"
                           className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                         >
                           <BsArrowUpRight />
-                        </a>
-                        <a href="#" className="text-gradient text-sm">
-                          {link}
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   );

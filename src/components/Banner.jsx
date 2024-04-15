@@ -69,27 +69,27 @@ export default function Banner() {
               </Link>
             </div>
             {/* socials */}
-            <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-300 lg:max">
+            <div className="flex lg:text-[20px] gap-x-10 lg:gap-x-6 max-w-max mx-auto lg:mx-0 text-slate-300 lg:max">
               <a
                 href="https://www.linkedin.com/in/oluwadara-ola-obaado-64b5511b4/"
                 target="_blank"
                 className="cursor-pointer"
               >
-                <FaLinkedin className="text-4xl" />
+                <FaLinkedin className="text-5xl lg:text-4xl" />
               </a>
               <a
                 href="https://github.com/andreyhuey"
                 target="_blank"
                 className="cursor-pointer"
               >
-                <FaGithub className="text-4xl" />
+                <FaGithub className="text-5xl lg:text-4xl" />
               </a>
               <a
                 href="https://twitter.com/andreyhuey"
                 target="_blank"
                 className="cursor-pointer"
               >
-                <FaTwitter className="text-4xl" />
+                <FaTwitter className="text-5xl lg:text-4xl" />
               </a>
             </div>
           </div>

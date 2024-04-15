@@ -26,32 +26,31 @@ export const skills = [
 export const services = [
   {
     id: 0,
-    name: "API Integration",
-    description:
-      "Utilizing external application programming interfaces within web applications to leverage existing functionalities and data from other systems.",
-    link: "Learn More",
-  },
-
-  {
-    id: 1,
-    name: "Software as a service (SaaS)",
-    description:
-      "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
-    link: "Learn More",
-  },
-  {
-    id: 2,
     name: "Design To Code",
     description:
       "Translating UI/UX design's visual elements, layout, and user interactions into code to create a functional and visually appealing web interface.",
-    link: "Learn More",
+    link: "https://www.google.com/search?q=describe+design+to+code&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn081hWth1jPboMLAcGTWNZMmgHfYqw%3A1713137811636&ei=k2gcZvC7JsOMhbIP9cCWgAY&ved=0ahUKEwiw0drV78KFAxVDRkEAHXWgBWAQ4dUDCBA&uact=5&oq=describe+design+to+code&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2Rlc2NyaWJlIGRlc2lnbiB0byBjb2RlMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEixTFCqMliRO3AFeAGQAQGYAeECoAGzD6oBBTItNy4xuAEDyAEA-AEBmAIHoALWA8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADmAMAiAYBkAYKkgcFNS4wLjKgB6Qo&sclient=gws-wiz-serp",
+  },
+  {
+    id: 1,
+    name: "Backend Development",
+    description:
+      "Building robust server-side applications and APIs to support the functionality and data needs of web applications. It's essential for ensuring the smooth functioning and performance of the entire application.",
+    link: "https://www.google.com/search?q=Backend+Development&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn081NWcFHut9H311orK7eIPkJOveNQ%3A1713136823905&ei=t2QcZrv1NtqphbIP99iYyAI&ved=0ahUKEwj7rNz-68KFAxXaVEEAHXcsBikQ4dUDCBA&uact=5&oq=Backend+Development&gs_lp=Egxnd3Mtd2l6LXNlcnAiE0JhY2tlbmQgRGV2ZWxvcG1lbnQyChAjGIAEGIoFGCcyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIuT1QigdY5DlwA3gBkAEAmAHJA6ABuiiqAQgyLTE2LjEuMrgBA8gBAPgBAZgCFqACsyqoAhTCAgoQABhHGNYEGLADwgINEAAYgAQYigUYQxiwA8ICExAuGIAEGIoFGEMYxwEY0QMYsAPCAgcQIxjqAhgnwgITEAAYgAQYigUYQxjqAhi0AtgBAcICBBAjGCfCAgsQABiABBiKBRiRAsICERAuGIMBGMcBGLEDGNEDGIAEwgILEAAYgAQYsQMYgwHCAgsQLhiDARixAxiABMICChAuGIAEGIoFGEPCAggQABiABBixA8ICDhAAGIAEGIoFGLEDGIMBwgIKEAAYgAQYFBiHAsICDhAAGIAEGIoFGJECGLEDwgIGEAAYFhgewgIIEAAYFhgeGAqYAz-IBgGQBgq6BgYIARABGAGSBwozLjAuMTUuMi4yoAf6jQE&sclient=gws-wiz-serp",
+  },
+  {
+    id: 2,
+    name: "Software as a service (SaaS)",
+    description:
+      "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
+    link: "https://www.google.com/search?q=software+as+a+service&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn09GDbLJZaz1AnRDV2k4ibS6BUF8Fw%3A1713136444191&ei=PGMcZompC8CChbIP1eut4AE&oq=softwa&gs_lp=Egxnd3Mtd2l6LXNlcnAiBnNvZnR3YSoCCAAyChAjGIAEGIoFGCcyChAAGIAEGIoFGEMyChAAGIAEGIoFGEMyDRAAGIAEGIoFGEMYsQMyDRAAGIAEGIoFGEMYsQMyChAAGIAEGIoFGEMyEBAAGIAEGIoFGEMYsQMYyQMyChAAGIAEGIoFGEMyCxAAGIAEGIoFGJIDMgsQABiABBiKBRiSA0jXMVDJCVjDI3ACeAGQAQCYAZECoAGSC6oBAzItNrgBAcgBAPgBAZgCCKACpQyoAhTCAgoQABhHGNYEGLADwgIKEC4YRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgcQIxjqAhgnwgITEAAYgAQYigUYQxjqAhi0AtgBAcICGRAuGIAEGIoFGEMYxwEY0QMY6gIYtALYAQHCAhUQABiABBiKBRhDGOoCGLQCGArYAQHCAhEQLhiABBixAxiDARjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgILEAAYgAQYsQMYgwHCAhAQLhiABBiKBRhDGMcBGNEDwgINEAAYgAQYigUYQxjJA5gDSYgGAZAGCroGBggBEAEYAZIHBTIuMC42oAfbNA&sclient=gws-wiz-serp",
   },
   {
     id: 3,
-    name: "State Management",
+    name: "Technical Writing",
     description:
-      "Managing and storing data used across different parts of a web application. Ensuring that all components have access to the most up-to-date and consistent data, enabling them to work together effectively.",
-    link: "Learn More",
+      "Creating clear, concise, and comprehensive technical documentation to aid developers, users, and other stakeholders in understanding and utilizing software systems.",
+    link: "https://www.google.com/search?q=technical+writing&oq=technical+w&gs_lcrp=EgZjaHJvbWUqDAgBECMYJxiABBiKBTIGCAAQRRg5MgwIARAjGCcYgAQYigUyDAgCEAAYQxiABBiKBTIHCAMQABiABDIHCAQQABiABDIGCAUQRRhBMgYIBhBFGEEyBggHEEUYQdIBCDYzODBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
   },
 ];
 
@@ -169,7 +168,7 @@ export const projects = [
       "My final year thesis centerd around a light fidelity patient monitoring device that monitors the vitals (temperature, heart rate and oxygen saturation levels) of a patient",
     image: medilifi,
     tools: ["Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
-    type: ["Front End", "API", "Back End", "Hardware"],
+    type: ["Front End", "API", "Fullstack", "Hardware"],
     tags: "Design to Code, API Integration",
     source: "https://github.com/Andreyhuey/medilifi",
     visit: "https://medilifi.vercel.app/",
@@ -189,7 +188,7 @@ export const projects = [
       "json-schema-faker",
       "json-server",
     ],
-    type: ["API", "Back End"],
+    type: ["API", "DevTool"],
     tags: "Design to Code, API Integration",
     source: "https://github.com/andreyhuey/mock-api",
     visit: "https://github.com/andreyhuey/mock-api",
@@ -201,7 +200,7 @@ export const projects = [
       "A web based project built with MongoDB, Express.js, React & Node.js (M.E.R.N) that enables users to list, add, update, and delete books",
     image: bookstore,
     tools: ["node.js", "express", "mongodb", "react", "TailwindCSS"],
-    type: ["Front End", "API", "Back End"],
+    type: ["Front End", "API", "Fullstack"],
     tags: "Design to Code, API Integration",
     source: "https://github.com/Andreyhuey/bookstore",
     visit: "https://bookstore-frontend-taupe.vercel.app/",
@@ -222,7 +221,6 @@ export const projects = [
 ];
 
 // tool images
-
 export const tools = [
   {
     title: "HTML5",
@@ -326,5 +324,13 @@ export const tools = [
   {
     title: "Visual Studio",
     image: visualstudio,
+  },
+];
+
+// about
+export const about = [
+  {
+    paragraph1:
+      "I believe in clearly defined roles, and i am fucking gonna project order and peace",
   },
 ];
