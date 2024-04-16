@@ -5,9 +5,13 @@ import { projects } from "../constants/constants";
 
 import { Card } from ".";
 
+import { motion } from "framer-motion";
+
+import { fadeIn } from "../variants";
+
 export default function Work() {
   const [type, setType] = useState(0);
-  const setProjectType = (index) => {
+  const setProjectType = (index: number) => {
     setType(index);
   };
 
@@ -17,7 +21,7 @@ export default function Work() {
     <section className="section" id="work">
       <div className="sm:container mx-auto">
         <div className="">
-          <div className="flex flex-col items-center justify-center gap-y-12 text-center">
+          <div className="flex flex-col items-center justify-center gap-y-10 text-center">
             {/* text */}
             <div>
               <h2 className="h1 leading-tight text-accent">My Latest Work.</h2>

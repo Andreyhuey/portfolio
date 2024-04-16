@@ -13,9 +13,21 @@ import {
   useAnimationFrame,
 } from "framer-motion";
 
+import LazyLoad from "react-lazyload";
+
 import { useEffect, useRef, useState } from "react";
 
-function ParallaxText({ children, baseVelocity = 100 }) {
+interface Tool {
+  title: string;
+  image: string;
+}
+
+interface ParallaxTextProps {
+  children: React.ReactNode;
+  baseVelocity: number;
+}
+
+function ParallaxText({ children, baseVelocity = 100 }: ParallaxTextProps) {
   const baseX = useMotionValue(0);
   const { scrollX } = useScroll();
   const scrollVelocity = useVelocity(scrollX);
@@ -50,7 +62,7 @@ function ParallaxText({ children, baseVelocity = 100 }) {
     baseX.set(baseX.get() + moveBy);
   });
 
-  const scrollerRef = useRef(null);
+  const scrollerRef = useRef<HTMLDivElement | null>(null);
 
   const [scrollerWidth, setScrollerWidth] = useState(0);
 
@@ -93,14 +105,16 @@ export default function Tools() {
           {tools?.map((tool, index) => {
             const { image, title } = tool;
             return (
-              <Image
-                key={index}
-                src={image}
-                alt={title}
-                weight={50}
-                height={75}
-                className="max-w-none cursor-pointer"
-              />
+              <LazyLoad key={index} height={200}>
+                <Image
+                  key={index}
+                  src={image}
+                  alt={title}
+                  width={100}
+                  height={100}
+                  className="max-w-none cursor-pointer"
+                />
+              </LazyLoad>
             );
           })}
         </div>

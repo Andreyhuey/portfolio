@@ -1,13 +1,36 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import Image from "next/image";
 
-const Card = ({ project, index }) => {
-  const { title, description, image, icons, source, visit, tools, id } =
-    project;
+import { motion } from "framer-motion";
+
+import { fadeIn } from "../variants";
+
+interface CardProps {
+  project: {
+    title: string;
+    description: string;
+    image: string;
+    tools: string[];
+    icons?: any[];
+    tags: string;
+    type: string[];
+    source: string;
+    visit: string;
+    figma?: string;
+    id: number;
+  };
+  index: number;
+}
+
+const Card = ({ project, index }: CardProps) => {
+  const { title, image, source, visit, tools } = project;
   return (
-    <div
+    <motion.div
+      variants={fadeIn("up", 0.3)}
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.7 }}
       className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
       key={index}
     >
@@ -16,7 +39,9 @@ const Card = ({ project, index }) => {
       <Image
         src={image}
         alt={title}
-        className="group-hover:scale-125 transition-all duration-500"
+        width={500}
+        height={500}
+        className="group-hover:scale-125 transition-all duration-500 w-full"
       />
 
       <div className="absolute -bottom-full p-8 group-hover:bottom-0 md:group-hover:bottom-5 transition-all duration-500 z-50 flex flex-col gap-y-4 w-full">
@@ -47,7 +72,7 @@ const Card = ({ project, index }) => {
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

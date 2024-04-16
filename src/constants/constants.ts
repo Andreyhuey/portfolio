@@ -97,7 +97,7 @@ export const projects = [
     title: "MarvelVerse",
     description:
       "Marvel's vast collection of characters, comics, creators, events, series and stories.",
-    image: marvel,
+    image: marvel.src,
     tools: ["React", "TailwindCSS", "Redux-toolkit"],
     icons: [react, tailwind, redux],
     tags: "API Integration, State Management",
@@ -111,7 +111,7 @@ export const projects = [
     title: "VortexGlide",
     description:
       "A Landing page for a gaming website advertising services for interested clients",
-    image: vortexGlide,
+    image: vortexGlide.src,
     tools: ["NextJs", "TypeScript", "TailwindCSS"],
     tags: "Design To Code",
     type: ["Front End"],
@@ -125,7 +125,7 @@ export const projects = [
     title: "SocialTract",
     description:
       "A Landing page for a social & corporate domain for connecting with people all around the world",
-    image: socialTract,
+    image: socialTract.src,
     tools: ["Nextjs", "TypeScript", "TailwindCSS"],
     tags: "Design To Code",
     type: ["Front End"],
@@ -139,7 +139,7 @@ export const projects = [
     title: "Analytics",
     description:
       "A business intelligence domain for data mining, process analysis, performance benchmarking and descriptive analytics",
-    image: analytics,
+    image: analytics.src,
     tools: ["Nextjs", "TypeScript", "TailwindCSS"],
     tags: "Design to Code",
     type: ["Front End"],
@@ -153,7 +153,7 @@ export const projects = [
   {
     title: "Evobank",
     description: "A landing page for a banking web application",
-    image: evobank,
+    image: evobank.src,
     tools: ["React", "TypeScript", "TailwindCSS"],
     type: ["Front End"],
     tags: "Design to Code, API Integration",
@@ -166,7 +166,7 @@ export const projects = [
     title: "Medilifi",
     description:
       "My final year thesis centerd around a light fidelity patient monitoring device that monitors the vitals (temperature, heart rate and oxygen saturation levels) of a patient",
-    image: medilifi,
+    image: medilifi.src,
     tools: ["Firebase", "ReduxToolkit", "TypeScript", "TailwindCSS"],
     type: ["Front End", "API", "Fullstack", "Hardware"],
     tags: "Design to Code, API Integration",
@@ -179,7 +179,7 @@ export const projects = [
     title: "Mock-Api",
     description:
       "A node.js based solution tailored for front-end developers seeking rapid and dependable mock API services. designed to bridge the gap between UI development and back-end readiness.",
-    image: mockapi,
+    image: mockapi.src,
     tools: [
       "node.js",
       "fakerjs",
@@ -198,7 +198,7 @@ export const projects = [
     title: "Bookstore",
     description:
       "A web based project built with MongoDB, Express.js, React & Node.js (M.E.R.N) that enables users to list, add, update, and delete books",
-    image: bookstore,
+    image: bookstore.src,
     tools: ["node.js", "express", "mongodb", "react", "TailwindCSS"],
     type: ["Front End", "API", "Fullstack"],
     tags: "Design to Code, API Integration",
@@ -210,7 +210,7 @@ export const projects = [
     title: "Anime Vault",
     description:
       "A modern Next 14 Server Side App built with Server Actions, Infinite Scroll & Framer Motion Animations developed during my nextjs dev journey",
-    image: animevault,
+    image: animevault.src,
     tools: ["TypeScript", "TailwindCSS", "Nextjs"],
     type: ["Front End", "API"],
     tags: "Dev Journey, API Integration",

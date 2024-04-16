@@ -5,17 +5,19 @@ import React, { useRef } from "react";
 import { toast, ToastContainer } from "react-toastify";
 
 export default function Contact() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  function sendEmail(e) {
+  function sendEmail(e: any) {
     e.preventDefault();
+
+    if (!form.current) return;
 
     emailjs
       .sendForm(
         "service_yhzzl9v",
         "template_w1hornj",
         form.current,
-        "W7DratuiH2eK_miQV"
+        "W7DratuiH2eK_miQV",
       )
       .then(
         (result) => {
@@ -25,7 +27,7 @@ export default function Contact() {
         (error) => {
           console.log(error.text);
           toast.error(error.text);
-        }
+        },
       );
     setTimeout(function () {
       e.target.reset();
@@ -82,7 +84,6 @@ export default function Contact() {
               />
               <textarea
                 className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
-                type="text"
                 placeholder="Your message"
                 name="message"
                 required
