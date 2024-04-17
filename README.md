@@ -6,4 +6,4 @@
 
 My name is Oluwadara Ola-Obaado a.k.a Andreyhuey
 
-Welcome to my developer portfolio :)
+Upskilling Software Engineer with front end focus
