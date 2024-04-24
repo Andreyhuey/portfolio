@@ -5,7 +5,7 @@ import {
   Contact,
   Services,
   Work,
-  // Tools,
+  Tools,
 } from "../components";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <div className=" bg-gray-900 text-white overflow-hidden xs:p-2">
         <Header />
         <Banner />
-        {/* <Tools /> */}
+        <Tools />
         <Work />
         <About />
         <Services />
