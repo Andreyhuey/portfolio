@@ -22,12 +22,12 @@ interface Tool {
   image: string;
 }
 
-interface ParallaxTextProps {
+interface ParallaxImageProps {
   children: React.ReactNode;
   baseVelocity: number;
 }
 
-function ParallaxText({ children, baseVelocity = 100 }: ParallaxTextProps) {
+function ParallaxImage({ children, baseVelocity = 100 }: ParallaxImageProps) {
   const baseX = useMotionValue(0);
   const { scrollX } = useScroll();
   const scrollVelocity = useVelocity(scrollX);
@@ -100,7 +100,7 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxTextProps) {
 export default function Tools() {
   return (
     <div className="sm:container mx-auto group py-14 w-full">
-      <ParallaxText baseVelocity={-80}>
+      <ParallaxImage baseVelocity={-80}>
         <div className="flex space-x-10 md:space-x-16 w-fit">
           {tools?.map((tool, index) => {
             const { image, title } = tool;
@@ -118,7 +118,7 @@ export default function Tools() {
             );
           })}
         </div>
-      </ParallaxText>
+      </ParallaxImage>
     </div>
   );
 }
