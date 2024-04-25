@@ -13,7 +13,7 @@ import {
   useAnimationFrame,
 } from "framer-motion";
 
-import LazyLoad from "react-lazyload";
+// import LazyLoad from "react-lazyload";
 
 import { useEffect, useRef, useState } from "react";
 
@@ -105,16 +105,16 @@ export default function Tools() {
           {tools?.map((tool, index) => {
             const { image, title } = tool;
             return (
-              <LazyLoad key={index} height={200}>
-                <Image
-                  key={index}
-                  src={image}
-                  alt={title}
-                  width={100}
-                  height={100}
-                  className="max-w-none cursor-pointer"
-                />
-              </LazyLoad>
+              // <LazyLoad key={index} height={200}>
+              <Image
+                key={index}
+                src={image}
+                alt={title}
+                width={100}
+                height={100}
+                className="max-w-none cursor-pointer"
+              />
+              // </LazyLoad>
             );
           })}
         </div>
