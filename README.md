@@ -7,3 +7,7 @@
 My name is Oluwadara Ola-Obaado a.k.a Andreyhuey
 
 Upskilling As a Software Engineer
+
+Favourite resources
+
+- The pragmatic programmer (1999)
