@@ -20,3 +20,5 @@ Tips
 4. Don't live with broken windows
 5. Be a catalyst for change
 6. Remember the big picture
+7. Make Quality a Requirements Issue
+8. Invest Regularly in Your Knowledge Portfolio
