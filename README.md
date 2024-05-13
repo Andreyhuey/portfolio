@@ -22,3 +22,6 @@ Tips
 6. Remember the big picture
 7. Make Quality a Requirements Issue
 8. Invest Regularly in Your Knowledge Portfolio
+9. Don't put all your technical eggs in one basket, diversify
+10. Invest regularly in your knowledge portfolio
+11. Actually Analyze what you read and hear
