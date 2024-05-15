@@ -25,3 +25,7 @@ Tips
 9. Don't put all your technical eggs in one basket, diversify
 10. Invest regularly in your knowledge portfolio
 11. Actually Analyze what you read and hear
+12. It's both what you say and the way you say it
+13. Make it easy to reuse
+14. Eliminate effects between unrelated things
+15. There are no final decisions
