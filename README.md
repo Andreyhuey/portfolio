@@ -29,4 +29,7 @@ Tips
 13. Make it easy to reuse
 14. Eliminate effects between unrelated things
 15. There are no final decisions
-16. DRY - Don't repeat yourself 
+16. DRY - Don't repeat yourself
+17. Keep your code decoupled
+18. Avoid global data
+19. Avoid similar functions
