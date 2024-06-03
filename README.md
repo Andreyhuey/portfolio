@@ -33,3 +33,6 @@ Tips
 17. Keep your code decoupled
 18. Avoid global data
 19. Avoid similar functions
+20. Keep your code decoupled
+21. Avoid global data
+22. Avoid similar functions
