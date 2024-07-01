@@ -103,7 +103,7 @@ export const projects = [
     tags: "API Integration, State Management",
     type: ["Front End", "API"],
     source: "https://github.com/Andreyhuey/marvelverse",
-    visit: "https://marvel-verse-app.netlify.app/events",
+    visit: "https://marvelverse.vercel.app/events",
     figma: "",
     id: 1,
   },
