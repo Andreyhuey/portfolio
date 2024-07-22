@@ -64,6 +64,7 @@ import medilifi from "../assets/medilifi.png";
 import bookstore from "../assets/bookstore.png";
 import mockapi from "../assets/mock-api.png";
 import animevault from "../assets/animevault.png";
+import whatchatbot from "../assets/whatchatbot.png";
 
 // Website tools
 import html from "../assets/tools/html.svg";
@@ -216,6 +217,18 @@ export const projects = [
     tags: "Dev Journey, API Integration",
     source: "https://github.com/Andreyhuey/anime_vault",
     visit: "https://anime-vault-seven-mu.vercel.app/",
+    id: 9,
+  },
+  {
+    title: "Whatsapp Dictionary Chatbot",
+    description:
+      "A chatbot that can serve as your dictionary. Accessible to specific user on WhatsApp using the Twilio MessagingX WhatsApp API to send and receive messages.",
+    image: whatchatbot.src,
+    tools: ["python", "twilio", "vercel", "mongodb", "dictionary"],
+    type: ["API", "DevTool"],
+    tags: "Dev Journey, API Integration",
+    source: "https://github.com/Andreyhuey/whatsapp-dictionary-chatbot",
+    visit: "https://whatsapp-dictionary-chatbot.vercel.app/docs",
     id: 9,
   },
 ];
