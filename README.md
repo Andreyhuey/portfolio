@@ -36,4 +36,4 @@ Tips
 20. Keep your code decoupled
 21. Avoid global data
 22. Avoid similar functions
-    !23. It's all writing
+23. It's all writing
