@@ -31,7 +31,7 @@ Below are a couple of technologies, stacks and links i frequent in bringing my i
 
 ## Tech Stacks
 
-My Favourite stack is the M.E.R.N Stack
+My Favourite stack is the Nextjs & FASTAPI Stack
 
 1. Mongogb, Express, React & Node - M.E.R.N
 
