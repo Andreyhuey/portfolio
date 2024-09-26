@@ -40,3 +40,5 @@ My Favourite stack is the Nextjs & FASTAPI Stack
 ## Links
 
 - **[Icons](https://icons8.com/)** : A great to get clean svg icons
+
+- **[UI Inspiration](https://)** : A figma board full of website UI inspirations
