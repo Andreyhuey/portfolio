@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Header() {
@@ -10,14 +11,14 @@ export default function Header() {
             <h2 className="text-3xl">O.O</h2>
           </a>
           {/* button */}
-          <button className="btn btn-sm">
-            <a
-              href="https://www.canva.com/design/DAFidbClCEA/J4gIc-1S6VBPARWVS41iRw/edit?utm_content=DAFidbClCEA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-              target="_blank"
-            >
-              Resume
-            </a>
-          </button>
+          <Link
+            href="https://www.canva.com/design/DAFidbClCEA/J4gIc-1S6VBPARWVS41iRw/edit?utm_content=DAFidbClCEA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            target="_blank"
+          >
+            <button className="btn btn-sm">
+              <p>Resume</p>
+            </button>
+          </Link>
         </div>
       </div>
     </header>

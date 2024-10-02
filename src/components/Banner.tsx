@@ -40,7 +40,7 @@ export default function Banner() {
               />
             </div>
             <div className="max-w-lg mx-auto lg:mx-0 font-semibold">
-              <p>Hello!, Welcome to my developer portfolio 🚀</p>
+              <p>Hello world!, Welcome to my developer portfolio 🚀</p>
               <br />
               <p>
                 Step into my world where creativity meets functionality, and
