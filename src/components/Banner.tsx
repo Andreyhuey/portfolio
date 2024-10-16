@@ -30,6 +30,8 @@ export default function Banner() {
                   2000,
                   "Backend Developer",
                   2000,
+                  "Information Technologist",
+                  2000,
                   "Technical Writer",
                   2000,
                 ]}
