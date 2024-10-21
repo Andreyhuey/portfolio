@@ -41,6 +41,7 @@ export default function ToolsCard({ image, index, title }: ToolsCardProps) {
         )}
       </AnimatePresence>
       <Image
+        priority
         key={index}
         src={image}
         alt={title}
