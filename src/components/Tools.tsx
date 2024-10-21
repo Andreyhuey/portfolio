@@ -40,7 +40,7 @@ export default function Tools() {
     }
 
     return controls?.stop;
-  }, [xTranslation, width, duration, rerender]);
+  }, [xTranslation, width, duration, rerender, mustFinish]);
 
   return (
     <main className=" py-20 w-full relative h-[200px] overflow-x-hidden">
