@@ -32,7 +32,9 @@ export default function Tools() {
         style={{ x: xTranslation }}
       >
         {[...tools, ...tools].map(({ image, title }, index) => {
-          return <ToolsCard image={image} title={title} index={index} />;
+          return (
+            <ToolsCard image={image} title={title} index={index} key={index} />
+          );
         })}
       </motion.div>
     </div>
