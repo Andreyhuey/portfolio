@@ -11,7 +11,7 @@ import {
 export default function Home() {
   return (
     <>
-      <div className=" bg-gray-900 text-white overflow-hidden xs:p-2">
+      <div className=" bg-gray-900 text-white n xs:p-2">
         <Header />
         <Banner />
         <Tools />
