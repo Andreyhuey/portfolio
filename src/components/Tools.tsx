@@ -25,7 +25,7 @@ export default function Tools() {
   }, [xTranslation, width]);
 
   return (
-    <div className=" py-14 w-full relative h-[250px] overflow-x-hidden">
+    <div className=" py-14 w-full relative h-[200px] overflow-x-hidden">
       <motion.div
         className="absolute left-0 bottom-0 flex gap-4 h-full"
         ref={ref}
