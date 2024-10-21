@@ -237,106 +237,106 @@ export const projects = [
 export const tools = [
   {
     title: "HTML5",
-    image: html,
+    image: html.src,
   },
   {
     title: "Bootstrap",
-    image: bootstrap,
+    image: bootstrap.src,
   },
   {
     title: "TailwindCSS",
-    image: tailwind,
+    image: tailwind.src,
   },
   {
     title: "javascript",
-    image: javascript,
+    image: javascript.src,
   },
   {
     title: "TypeScript",
-    image: typescript,
+    image: typescript.src,
   },
   {
     title: "PHP",
-    image: php,
+    image: php.src,
   },
   {
     title: "Python",
-    image: python,
+    image: python.src,
   },
   {
     title: "Git",
-    image: git,
+    image: git.src,
   },
   {
     title: "Github",
-    image: github,
+    image: github.src,
   },
   {
     title: "GraphQl",
-    image: graphql,
+    image: graphql.src,
   },
   {
     title: "Prisma",
-    image: prisma,
+    image: prisma.src,
   },
   {
     title: "Mysql",
-    image: mysql,
+    image: mysql.src,
   },
   {
     title: "postgres",
-    image: postgres,
+    image: postgres.src,
   },
 
   {
     title: "MongoDb",
-    image: mongodb,
+    image: mongodb.src,
   },
   {
     title: "Express",
-    image: expressjs,
+    image: expressjs.src,
   },
   {
     title: "React",
-    image: react,
+    image: react.src,
   },
   {
     title: "NodeJs",
-    image: node,
+    image: node.src,
   },
   {
     title: "NextJs",
-    image: nextjs,
+    image: nextjs.src,
   },
 
   {
     title: "Docker",
-    image: docker,
+    image: docker.src,
   },
   {
     title: "ReduxToolkit",
-    image: redux,
+    image: redux.src,
   },
   {
     title: "Wordpress",
-    image: wordpress,
+    image: wordpress.src,
   },
 
   {
     title: "Flask",
-    image: flask,
+    image: flask.src,
   },
   {
     title: "Django",
-    image: django,
+    image: django.src,
   },
   {
     title: "Firebase",
-    image: firebase,
+    image: firebase.src,
   },
   {
     title: "Visual Studio",
-    image: visualstudio,
+    image: visualstudio.src,
   },
 ];
 
