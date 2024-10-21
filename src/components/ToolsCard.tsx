@@ -47,7 +47,6 @@ export default function ToolsCard({ image, index, title }: ToolsCardProps) {
         fill
         style={{ objectFit: "contain" }}
         className="absolute inset-0 h-full"
-        loading="lazy"
       />
     </motion.div>
   );
