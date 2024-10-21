@@ -1,3 +1,5 @@
+"use client";
+
 import { animate, motion, useMotionValue } from "framer-motion";
 import { tools } from "../constants/constants";
 import ToolsCard from "./ToolsCard";
@@ -5,8 +7,8 @@ import useMeasure from "react-use-measure";
 import { useEffect, useState } from "react";
 
 export default function Tools() {
-  const FAST_DURATION = 25;
-  const SLOW_DURATION = 75;
+  const FAST_DURATION = 40;
+  const SLOW_DURATION = 85;
 
   const [duration, setDuration] = useState(FAST_DURATION);
   const [mustFinish, setMustFinish] = useState(false);

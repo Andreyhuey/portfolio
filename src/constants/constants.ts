@@ -55,43 +55,43 @@ export const services = [
 ];
 
 //project Images
-import marvel from "../assets/marvelverse-home.png";
-import vortexGlide from "../assets/vortexglide.png";
-import socialTract from "../assets/social-tract.png";
-import analytics from "../assets/analytics.png";
-import evobank from "../assets/evobank-home.png";
-import medilifi from "../assets/medilifi.png";
-import bookstore from "../assets/bookstore.png";
-import mockapi from "../assets/mock-api.png";
-import animevault from "../assets/animevault.png";
-import whatchatbot from "../assets/whatchatbot.png";
+import marvel from "@/public/assets/marvelverse-home.png";
+import vortexGlide from "@/public/assets/vortexglide.png";
+import socialTract from "@/public/assets/social-tract.png";
+import analytics from "@/public/assets/analytics.png";
+import evobank from "@/public/assets/evobank-home.png";
+import medilifi from "@/public/assets/medilifi.png";
+import bookstore from "@/public/assets/bookstore.png";
+import mockapi from "@/public/assets/mock-api.png";
+import animevault from "@/public/assets/animevault.png";
+import whatchatbot from "@/public/assets/whatchatbot.png";
 
 // Website tools
-import html from "../assets/tools/html.svg";
-import bootstrap from "../assets/tools/bootstrap.svg";
-import tailwind from "../assets/tools/tailwindcss.svg";
-import firebase from "../assets/tools/firebase.svg";
-import git from "../assets/tools/git.svg";
-import github from "../assets/tools/github.svg";
-import mysql from "../assets/tools/mysql.svg";
-import postgres from "../assets/tools/postgres.svg";
-import javascript from "../assets/tools/javascript.svg";
-import mongodb from "../assets/tools/mongodb.svg";
-import expressjs from "../assets/tools/expressjs.svg";
-import react from "../assets/tools/react.svg";
-import node from "../assets/tools/nodejs.svg";
-import nextjs from "../assets/tools/nextjs.svg";
-import graphql from "../assets/tools/graphql.svg";
-import prisma from "../assets/tools/prisma.svg";
-import docker from "../assets/tools/docker.svg";
-import redux from "../assets/tools/redux.svg";
-import wordpress from "../assets/tools/wordpress.svg";
-import php from "../assets/tools/php.svg";
-import python from "../assets/tools/python.svg";
-import flask from "../assets/tools/flask.svg";
-import django from "../assets/tools/django.svg";
-import typescript from "../assets/tools/typescript.svg";
-import visualstudio from "../assets/tools/visual-studio.svg";
+import html from "@/public/assets/tools/html.svg";
+import bootstrap from "@/public/assets/tools/bootstrap.svg";
+import tailwind from "@/public/assets/tools/tailwindcss.svg";
+import firebase from "@/public/assets/tools/firebase.svg";
+import git from "@/public/assets/tools/git.svg";
+import github from "@/public/assets/tools/github.svg";
+import mysql from "@/public/assets/tools/mysql.svg";
+import postgres from "@/public/assets/tools/postgres.svg";
+import javascript from "@/public/assets/tools/javascript.svg";
+import mongodb from "@/public/assets/tools/mongodb.svg";
+import expressjs from "@/public/assets/tools/expressjs.svg";
+import react from "@/public/assets/tools/react.svg";
+import node from "@/public/assets/tools/nodejs.svg";
+import nextjs from "@/public/assets/tools/nextjs.svg";
+import graphql from "@/public/assets/tools/graphql.svg";
+import prisma from "@/public/assets/tools/prisma.svg";
+import docker from "@/public/assets/tools/docker.svg";
+import redux from "@/public/assets/tools/redux.svg";
+import wordpress from "@/public/assets/tools/wordpress.svg";
+import php from "@/public/assets/tools/php.svg";
+import python from "@/public/assets/tools/python.svg";
+import flask from "@/public/assets/tools/flask.svg";
+import django from "@/public/assets/tools/django.svg";
+import typescript from "@/public/assets/tools/typescript.svg";
+import visualstudio from "@/public/assets/tools/visual-studio.svg";
 
 export const projects = [
   {

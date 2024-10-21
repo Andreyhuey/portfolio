@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import ab from "../assets/dev.png";
+import ab from "@/public/assets/dev.png";
 
 import { BsArrowUpRight } from "react-icons/bs";
 

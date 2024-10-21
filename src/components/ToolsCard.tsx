@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -46,7 +48,6 @@ export default function ToolsCard({ image, index, title }: ToolsCardProps) {
         style={{ objectFit: "contain" }}
         className="absolute inset-0 h-full"
         loading="lazy"
-        placeholder="blur"
       />
     </motion.div>
   );

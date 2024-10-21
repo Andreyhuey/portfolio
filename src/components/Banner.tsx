@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../assets/avatar.jpeg";
+import Avatar from "@/public/assets/avatar.jpeg";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 // type animation
 import { TypeAnimation } from "react-type-animation";
