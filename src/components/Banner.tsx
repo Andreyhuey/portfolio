@@ -30,8 +30,6 @@ export default function Banner() {
                   2000,
                   "Backend Developer",
                   2000,
-                  "Information Technologist",
-                  2000,
                   "Technical Writer",
                   2000,
                 ]}
@@ -48,8 +46,8 @@ export default function Banner() {
                 Step into my world where creativity meets functionality, and
                 every line of code tells a story. As a software engineer,
                 I&apos;m fueled by a passion for crafting seamless digital
-                experiences, whether it&apos;s through pixel-perfect front-end
-                designs or robust back-end solutions.
+                experiences, whether it&apos;s through pixel-perfect client-side
+                designs or robust server-side solutions.
               </p>
             </div>
 
