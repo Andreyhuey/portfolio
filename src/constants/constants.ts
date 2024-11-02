@@ -173,6 +173,9 @@ export const projects = [
     tags: "Design to Code, API Integration",
     source: "https://github.com/Andreyhuey/medilifi",
     visit: "https://medilifi.vercel.app/",
+    articleLink:
+      "https://www.mecs-press.org/ijem/ijem-v14-n5/IJEM-V14-N5-3.pdf",
+    articleSponserLink: "https://doi.org/10.5815/ijem.2024.05.03",
     figma: "",
     id: 6,
   },
