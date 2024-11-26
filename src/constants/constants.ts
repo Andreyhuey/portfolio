@@ -232,7 +232,18 @@ export const projects = [
     tags: "Dev Journey, API Integration",
     source: "https://github.com/Andreyhuey/whatsapp-dictionary-chatbot",
     visit: "https://whatsapp-dictionary-chatbot.vercel.app/docs",
-    id: 9,
+    id: 10,
+  },
+  {
+    title: "Light-Fidelity based patient monitoring system",
+    description: "",
+    image: "",
+    tools: ["vite", "IOT", "typescript", "firebase", "sensors"],
+    type: ["Article"],
+    tags: "Dev journey",
+    source: "",
+    visit: "",
+    id: 11,
   },
 ];
 
