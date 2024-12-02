@@ -57,14 +57,8 @@ const Card = ({ project, index }: CardProps) => {
           ))}
         </span>
 
-        {/* <span className="flex gap-3 w-fit items-center">
-          {icons?.map((tool, index) => (
-            <Image key={index} src={tool} alt={"image"} className="w-7" />
-          ))}
-        </span> */}
-
         <div className="flex justify-between text-3xl">
-          <Link href={source}>
+          <Link href={source} target="_blank">
             <FaGithub />
           </Link>
           <Link href={visit}>
