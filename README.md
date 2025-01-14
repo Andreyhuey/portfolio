@@ -69,6 +69,23 @@ Tips
 42. Take small steps- always
 43. avoid fortune-telling
 
+### Chapter 5. Bend, or Break
+
+44. Decoupled code is easier to change
+45. Tell, Don't Ask
+46. Don't Chain Method Calls
+47. Avoid Global Data
+48. If it's important enough to be global, wrap it in an API
+49. programming is about code, but programs are about data.
+50. don't hoard state; pass it around
+51. don't Pay inheritance Tax
+52. prefer interfaces to express polymorphism
+53. delegate to services: has-a trumps is-a
+54. use mixins to share functionality
+55. Parameterize your app using external configuration
+
+### Chapter 6. Concurrency
+
 ### Resources
 
 [Infinite scrolling carousel with hover effects using Framer Motion](https://www.youtube.com/watch?v=Ot4n)
