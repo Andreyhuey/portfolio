@@ -86,6 +86,12 @@ Tips
 
 ### Chapter 6. Concurrency
 
+### chapter 7. While you are coding
+
+61. Listen to your inner lizard
+    --new topic
+62.
+
 ### Resources
 
 [Infinite scrolling carousel with hover effects using Framer Motion](https://www.youtube.com/watch?v=Ot4n)
