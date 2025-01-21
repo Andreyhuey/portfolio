@@ -89,8 +89,8 @@ Tips
 ### chapter 7. While you are coding
 
 61. Listen to your inner lizard
-    --new topic
-62.
+62. Don't Program by coincidence
+63.
 
 ### Resources
 
