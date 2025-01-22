@@ -90,7 +90,8 @@ Tips
 
 61. Listen to your inner lizard
 62. Don't Program by coincidence
-63.
+63. Estimate the order of your algorithms
+64. Test Your Estimates
 
 ### Resources
 
