@@ -10,7 +10,7 @@ Upskilling As a Software Engineer
 
 Favourite resources
 
-- The pragmatic programmer (1999)
+- The pragmatic programmer your journey to mastery (1999)
 
 Tips
 
@@ -86,12 +86,26 @@ Tips
 
 ### Chapter 6. Concurrency
 
+56. Analyze workflow to improve concurrency
+57. shared state is incorrect state
+58. random failures are often concurrency issues
+59. use actors for concurrency without shared state
+60. use blackboards to coordinate workflow
+
 ### chapter 7. While you are coding
 
 61. Listen to your inner lizard
 62. Don't Program by coincidence
 63. Estimate the order of your algorithms
 64. Test Your Estimates
+65. Refactor early, refactor often
+66. Testing is not about finding bugs
+67. A test is the first user of your code
+68. Build end-to-end, not top-down or bottom up
+69. Design to test
+70. Test your software, or your users will
+71. Use property-base tests to validate your assumptions
+72. (page 385)
 
 ### Resources
 
