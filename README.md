@@ -105,7 +105,9 @@ Tips
 69. Design to test
 70. Test your software, or your users will
 71. Use property-base tests to validate your assumptions
-72. (page 385)
+72. Keep it simple and minimize attack surfaces
+73. Apply Security patches quickly
+74. Name well; rename when needed
 
 ### Resources
 
