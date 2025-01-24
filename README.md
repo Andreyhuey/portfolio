@@ -109,6 +109,18 @@ Tips
 73. Apply Security patches quickly
 74. Name well; rename when needed
 
+### chapter 8. Before the project
+
+75. No one knows exactly what they want
+76. programmers help people understand what they want
+77. Requirements are learned in a feedback loop
+78. Work with a user to think like a user
+79. Policy is Metadata
+80. Use a project glossary
+81. Don't Think Outside the box - find the box
+82. Don't go into the code alone
+83. Agile is not a noun; agile is how you do things
+
 ### Resources
 
 [Infinite scrolling carousel with hover effects using Framer Motion](https://www.youtube.com/watch?v=Ot4n)
