@@ -121,6 +121,12 @@ Tips
 82. Don't go into the code alone
 83. Agile is not a noun; agile is how you do things
 
+## Agile way of doing things
+
+1. work out where you are
+2. make the smallest meaningful step towards where you want to be.
+3. Evaluate where you end up, and fix anything you broke.
+
 ### Resources
 
 [Infinite scrolling carousel with hover effects using Framer Motion](https://www.youtube.com/watch?v=Ot4n)
