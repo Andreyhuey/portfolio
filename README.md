@@ -121,6 +121,22 @@ Tips
 82. Don't go into the code alone
 83. Agile is not a noun; agile is how you do things
 
+### chapter 9. Pragmatic projects
+
+84. Maintain small, stable teams
+85. schedule it to make it happen
+86. organizae fully functional teams
+87. do what works, not what's fashionable
+88. deliver when users need it
+89. use version control to drive builds, tests, and releases
+90. test early, test often, test automatically
+91. coding ain't done 'til all the tests run
+92. use saboteurs to test your Testing
+93. test state coverage, not code coverage
+94. find bugs once
+95. don't use manual procedures
+96. delight users, don't just deliver code
+
 ## Agile way of doing things
 
 1. work out where you are
