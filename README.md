@@ -136,6 +136,13 @@ Tips
 94. find bugs once
 95. don't use manual procedures
 96. delight users, don't just deliver code
+97. sign your work
+
+### chapter 10. Postface
+
+98. first, do no harm
+99. don't enable scumbags
+100.  It's your life. share it. celebrate it. build it. AND HAVE FUN!
 
 ## Agile way of doing things
 
