@@ -20,3 +20,8 @@ String Problems: Like this one—generating valid parentheses!
 Divide and conquer is a general algorithm design paradigm where a problem is divided into smaller subproblems, each of which is solved independently, and their solutions are combined to solve the original problem.
 
 Examples: Merge sort : complexity of (O (n log n)), quicksort, binary search.
+
+
+## Dynamic Programming (DP)
+
+Dynamic Programming is a technique used to solve problems by breaking them down into overlapping subproblems and solving each subproblem just once, storing the result for future use (memoization).
