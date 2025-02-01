@@ -234,17 +234,6 @@ export const projects = [
     visit: "https://whatsapp-dictionary-chatbot.vercel.app/docs",
     id: 10,
   },
-  {
-    title: "Light-Fidelity based patient monitoring system",
-    description: "",
-    image: "",
-    tools: ["vite", "IOT", "typescript", "firebase", "sensors"],
-    type: ["Article"],
-    tags: "Dev journey",
-    source: "",
-    visit: "",
-    id: 11,
-  },
 ];
 
 // tool images
