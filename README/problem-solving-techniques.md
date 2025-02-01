@@ -21,7 +21,10 @@ Divide and conquer is a general algorithm design paradigm where a problem is div
 
 Examples: Merge sort : complexity of (O (n log n)), quicksort, binary search.
 
-
 ## Dynamic Programming (DP)
 
 Dynamic Programming is a technique used to solve problems by breaking them down into overlapping subproblems and solving each subproblem just once, storing the result for future use (memoization).
+
+## The Sliding Window Technique
+
+The Sliding Window technique is an optimization method used to efficiently solve problems involving contiguous subarrays or substrings. Instead of recomputing values for every possible subarray, the window slides across the input while maintaining necessary information dynamically.
