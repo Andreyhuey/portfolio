@@ -28,3 +28,7 @@ Dynamic Programming is a technique used to solve problems by breaking them down 
 ## The Sliding Window Technique
 
 The Sliding Window technique is an optimization method used to efficiently solve problems involving contiguous subarrays or substrings. Instead of recomputing values for every possible subarray, the window slides across the input while maintaining necessary information dynamically.
+
+## Recursion Technique
+
+Recursion is a technique where a function calls itself to solve a problem. It breaks a problem into smaller subproblems until reaching a base case.
