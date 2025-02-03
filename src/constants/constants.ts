@@ -180,25 +180,6 @@ export const projects = [
     id: 6,
   },
   {
-    title: "Mock-Api",
-    description:
-      "A node.js based solution tailored for front-end developers seeking rapid and dependable mock API services. designed to bridge the gap between UI development and back-end readiness.",
-    image: mockapi.src,
-    tools: [
-      "node.js",
-      "fakerjs",
-      "fs",
-      "json-schema",
-      "json-schema-faker",
-      "json-server",
-    ],
-    type: ["API", "DevTool"],
-    tags: "Design to Code, API Integration",
-    source: "https://github.com/andreyhuey/mock-api",
-    visit: "https://github.com/andreyhuey/mock-api",
-    id: 7,
-  },
-  {
     title: "Bookstore",
     description:
       "A web based project built with MongoDB, Express.js, React & Node.js (M.E.R.N) that enables users to list, add, update, and delete books",
@@ -221,6 +202,28 @@ export const projects = [
     source: "https://github.com/Andreyhuey/anime_vault",
     visit: "https://anime-vault-seven-mu.vercel.app/",
     id: 9,
+  },
+];
+
+const backendProjects = [
+  {
+    title: "Mock-Api",
+    description:
+      "A node.js based solution tailored for front-end developers seeking rapid and dependable mock API services. designed to bridge the gap between UI development and back-end readiness.",
+    image: mockapi.src,
+    tools: [
+      "node.js",
+      "fakerjs",
+      "fs",
+      "json-schema",
+      "json-schema-faker",
+      "json-server",
+    ],
+    type: ["API", "DevTool"],
+    tags: "Design to Code, API Integration",
+    source: "https://github.com/andreyhuey/mock-api",
+    visit: "https://github.com/andreyhuey/mock-api",
+    id: 7,
   },
   {
     title: "Whatsapp Dictionary Chatbot",
