@@ -61,7 +61,7 @@ const Card = ({ project, index }: CardProps) => {
           <Link href={source} target="_blank">
             <FaGithub />
           </Link>
-          <Link href={visit}>
+          <Link href={visit} target="_blank">
             <FaExternalLinkAlt />
           </Link>
         </div>
