@@ -1,59 +1,3 @@
-export const skills = [
-  {
-    title: "Communication",
-    description:
-      "Interacting effectively with other developers, as well as with non-technical stakeholders. This includes being able to explain technical concepts in a clear and concise way, as well as being able to understand and respond to feedback.",
-    extra:
-      "Building a personal connection with people: developers & non-technical stakeholders in order to understand their taste from their personalities and be able to deliver on their proposed requirements is crucial and this is done through proper communication and comprehension",
-  },
-  {
-    title: "Problem-solving",
-    description:
-      "ability to solve problems independently. This includes being able to identify the root cause of a problem, as well as being able to come up with creative solutions.",
-  },
-  {
-    title: "Continuous learning",
-    description:
-      "The field of web development is constantly evolving so i endeavour to learn new technologies and techniques on an ongoing basis.",
-  },
-  {
-    title: "Pragmatism",
-    description:
-      "The ability of writing practical units, functions and components code in an organized and reusable model",
-  },
-];
-
-export const services = [
-  {
-    id: 0,
-    name: "Design To Code",
-    description:
-      "Translating UI/UX design's visual elements, layout, and user interactions into code to create a functional and visually appealing web interface.",
-    link: "https://www.google.com/search?q=describe+design+to+code&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn081hWth1jPboMLAcGTWNZMmgHfYqw%3A1713137811636&ei=k2gcZvC7JsOMhbIP9cCWgAY&ved=0ahUKEwiw0drV78KFAxVDRkEAHXWgBWAQ4dUDCBA&uact=5&oq=describe+design+to+code&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2Rlc2NyaWJlIGRlc2lnbiB0byBjb2RlMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEixTFCqMliRO3AFeAGQAQGYAeECoAGzD6oBBTItNy4xuAEDyAEA-AEBmAIHoALWA8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADmAMAiAYBkAYKkgcFNS4wLjKgB6Qo&sclient=gws-wiz-serp",
-  },
-  {
-    id: 1,
-    name: "Backend Development",
-    description:
-      "Building robust server-side applications and APIs to support the functionality and data needs of web applications. It's essential for ensuring the smooth functioning and performance of the entire application.",
-    link: "https://www.google.com/search?q=Backend+Development&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn081NWcFHut9H311orK7eIPkJOveNQ%3A1713136823905&ei=t2QcZrv1NtqphbIP99iYyAI&ved=0ahUKEwj7rNz-68KFAxXaVEEAHXcsBikQ4dUDCBA&uact=5&oq=Backend+Development&gs_lp=Egxnd3Mtd2l6LXNlcnAiE0JhY2tlbmQgRGV2ZWxvcG1lbnQyChAjGIAEGIoFGCcyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIuT1QigdY5DlwA3gBkAEAmAHJA6ABuiiqAQgyLTE2LjEuMrgBA8gBAPgBAZgCFqACsyqoAhTCAgoQABhHGNYEGLADwgINEAAYgAQYigUYQxiwA8ICExAuGIAEGIoFGEMYxwEY0QMYsAPCAgcQIxjqAhgnwgITEAAYgAQYigUYQxjqAhi0AtgBAcICBBAjGCfCAgsQABiABBiKBRiRAsICERAuGIMBGMcBGLEDGNEDGIAEwgILEAAYgAQYsQMYgwHCAgsQLhiDARixAxiABMICChAuGIAEGIoFGEPCAggQABiABBixA8ICDhAAGIAEGIoFGLEDGIMBwgIKEAAYgAQYFBiHAsICDhAAGIAEGIoFGJECGLEDwgIGEAAYFhgewgIIEAAYFhgeGAqYAz-IBgGQBgq6BgYIARABGAGSBwozLjAuMTUuMi4yoAf6jQE&sclient=gws-wiz-serp",
-  },
-  {
-    id: 2,
-    name: "Software as a service (SaaS)",
-    description:
-      "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
-    link: "https://www.google.com/search?q=software+as+a+service&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn09GDbLJZaz1AnRDV2k4ibS6BUF8Fw%3A1713136444191&ei=PGMcZompC8CChbIP1eut4AE&oq=softwa&gs_lp=Egxnd3Mtd2l6LXNlcnAiBnNvZnR3YSoCCAAyChAjGIAEGIoFGCcyChAAGIAEGIoFGEMyChAAGIAEGIoFGEMyDRAAGIAEGIoFGEMYsQMyDRAAGIAEGIoFGEMYsQMyChAAGIAEGIoFGEMyEBAAGIAEGIoFGEMYsQMYyQMyChAAGIAEGIoFGEMyCxAAGIAEGIoFGJIDMgsQABiABBiKBRiSA0jXMVDJCVjDI3ACeAGQAQCYAZECoAGSC6oBAzItNrgBAcgBAPgBAZgCCKACpQyoAhTCAgoQABhHGNYEGLADwgIKEC4YRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgcQIxjqAhgnwgITEAAYgAQYigUYQxjqAhi0AtgBAcICGRAuGIAEGIoFGEMYxwEY0QMY6gIYtALYAQHCAhUQABiABBiKBRhDGOoCGLQCGArYAQHCAhEQLhiABBixAxiDARjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgILEAAYgAQYsQMYgwHCAhAQLhiABBiKBRhDGMcBGNEDwgINEAAYgAQYigUYQxjJA5gDSYgGAZAGCroGBggBEAEYAZIHBTIuMC42oAfbNA&sclient=gws-wiz-serp",
-  },
-  {
-    id: 3,
-    name: "Technical Writing",
-    description:
-      "Creating clear, concise, and comprehensive technical documentation to aid developers, users, and other stakeholders in understanding and utilizing software systems.",
-    link: "https://www.google.com/search?q=technical+writing&oq=technical+w&gs_lcrp=EgZjaHJvbWUqDAgBECMYJxiABBiKBTIGCAAQRRg5MgwIARAjGCcYgAQYigUyDAgCEAAYQxiABBiKBTIHCAMQABiABDIHCAQQABiABDIGCAUQRRhBMgYIBhBFGEEyBggHEEUYQdIBCDYzODBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
-  },
-];
-
 //project Images
 import marvel from "@/public/assets/marvelverse-home.png";
 import vortexGlide from "@/public/assets/vortexglide.png";
@@ -92,6 +36,110 @@ import flask from "@/public/assets/tools/flask.svg";
 import django from "@/public/assets/tools/django.svg";
 import typescript from "@/public/assets/tools/typescript.svg";
 import visualstudio from "@/public/assets/tools/visual-studio.svg";
+
+export const experience = [
+  {
+    title: "Front-End Software Engineer",
+    company: "OnestopRx",
+    website: "https://www.onestoprx.ng",
+    industry: "Healthcare & Technology",
+    time_spent: "MM/YYYY - Present",
+    responsibilities: [
+      "Implemented UI from Figma designs for telemedicine, EHR, and lab testing features in physician and admin dashboards.",
+      "Optimized UI/UX for improved usability and accessibility.",
+      "Handled complex state management to ensure seamless data flow.",
+      "Integrated healthcare APIs for secure and efficient system interoperability.",
+      "Collaborated with QA testers to identify and resolve issues.",
+      "Ensured compliance with healthcare data regulations such as HIPAA.",
+    ],
+    technologies: [
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "React",
+      "Redux Toolkit",
+      "TanStack Query",
+    ],
+  },
+  {
+    title: "Health Information Officer",
+    company: "Healthcare Organization",
+    website: "https://www.healthcareorganization.com",
+    industry: "Health Information Management",
+    time_spent: "MM/YYYY - MM/YYYY",
+    responsibilities: [
+      "Ensured system functionality and supervised data entry management.",
+      "Oversaw accurate and secure data enrollment for healthcare enrollees.",
+      "Optimized software performance, ensuring efficient search and sort algorithms.",
+      "Maintained data integrity and compliance with health information standards.",
+    ],
+    technologies: ["MySQL", "PostgreSQL", "MongoDB", "PHP", "Python"],
+  },
+];
+
+export const skills = [
+  {
+    title: "Communication",
+    description:
+      "Interacting effectively with other developers, as well as with non-technical stakeholders. This includes being able to explain technical concepts in a clear and concise way, as well as being able to understand and respond to feedback.",
+    extra:
+      "Building a personal connection with people: developers & non-technical stakeholders in order to understand their taste from their personalities and be able to deliver on their proposed requirements is crucial and this is done through proper communication and comprehension",
+  },
+  {
+    title: "Problem-solving",
+    description:
+      "ability to solve problems independently. This includes being able to identify the root cause of a problem, as well as being able to come up with creative solutions.",
+  },
+  {
+    title: "Continuous learning",
+    description:
+      "The field of web development is constantly evolving so i endeavour to learn new technologies and techniques on an ongoing basis.",
+  },
+  {
+    title: "Pragmatism",
+    description:
+      "The ability of writing practical units, functions and components code in an organized and reusable model",
+  },
+];
+
+// about
+export const about = [
+  {
+    paragraph1:
+      "I believe in clearly defined roles, and i am fucking gonna project order and peace",
+  },
+];
+
+export const services = [
+  {
+    id: 0,
+    name: "Design To Code",
+    description:
+      "Translating UI/UX design's visual elements, layout, and user interactions into code to create a functional and visually appealing web interface.",
+    link: "https://www.google.com/search?q=describe+design+to+code&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn081hWth1jPboMLAcGTWNZMmgHfYqw%3A1713137811636&ei=k2gcZvC7JsOMhbIP9cCWgAY&ved=0ahUKEwiw0drV78KFAxVDRkEAHXWgBWAQ4dUDCBA&uact=5&oq=describe+design+to+code&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2Rlc2NyaWJlIGRlc2lnbiB0byBjb2RlMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEixTFCqMliRO3AFeAGQAQGYAeECoAGzD6oBBTItNy4xuAEDyAEA-AEBmAIHoALWA8ICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADmAMAiAYBkAYKkgcFNS4wLjKgB6Qo&sclient=gws-wiz-serp",
+  },
+  {
+    id: 1,
+    name: "Backend Development",
+    description:
+      "Building robust server-side applications and APIs to support the functionality and data needs of web applications. It's essential for ensuring the smooth functioning and performance of the entire application.",
+    link: "https://www.google.com/search?q=Backend+Development&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn081NWcFHut9H311orK7eIPkJOveNQ%3A1713136823905&ei=t2QcZrv1NtqphbIP99iYyAI&ved=0ahUKEwj7rNz-68KFAxXaVEEAHXcsBikQ4dUDCBA&uact=5&oq=Backend+Development&gs_lp=Egxnd3Mtd2l6LXNlcnAiE0JhY2tlbmQgRGV2ZWxvcG1lbnQyChAjGIAEGIoFGCcyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIuT1QigdY5DlwA3gBkAEAmAHJA6ABuiiqAQgyLTE2LjEuMrgBA8gBAPgBAZgCFqACsyqoAhTCAgoQABhHGNYEGLADwgINEAAYgAQYigUYQxiwA8ICExAuGIAEGIoFGEMYxwEY0QMYsAPCAgcQIxjqAhgnwgITEAAYgAQYigUYQxjqAhi0AtgBAcICBBAjGCfCAgsQABiABBiKBRiRAsICERAuGIMBGMcBGLEDGNEDGIAEwgILEAAYgAQYsQMYgwHCAgsQLhiDARixAxiABMICChAuGIAEGIoFGEPCAggQABiABBixA8ICDhAAGIAEGIoFGLEDGIMBwgIKEAAYgAQYFBiHAsICDhAAGIAEGIoFGJECGLEDwgIGEAAYFhgewgIIEAAYFhgeGAqYAz-IBgGQBgq6BgYIARABGAGSBwozLjAuMTUuMi4yoAf6jQE&sclient=gws-wiz-serp",
+  },
+  {
+    id: 2,
+    name: "Software as a service (SaaS)",
+    description:
+      "helping businesses build and deploy their applications quickly and easily by providing a number of benefits including: Reduced development time, Increased scalability & Enhanced security",
+    link: "https://www.google.com/search?q=software+as+a+service&sca_esv=11d5f1fca19f1e80&sca_upv=1&sxsrf=ACQVn09GDbLJZaz1AnRDV2k4ibS6BUF8Fw%3A1713136444191&ei=PGMcZompC8CChbIP1eut4AE&oq=softwa&gs_lp=Egxnd3Mtd2l6LXNlcnAiBnNvZnR3YSoCCAAyChAjGIAEGIoFGCcyChAAGIAEGIoFGEMyChAAGIAEGIoFGEMyDRAAGIAEGIoFGEMYsQMyDRAAGIAEGIoFGEMYsQMyChAAGIAEGIoFGEMyEBAAGIAEGIoFGEMYsQMYyQMyChAAGIAEGIoFGEMyCxAAGIAEGIoFGJIDMgsQABiABBiKBRiSA0jXMVDJCVjDI3ACeAGQAQCYAZECoAGSC6oBAzItNrgBAcgBAPgBAZgCCKACpQyoAhTCAgoQABhHGNYEGLADwgIKEC4YRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAgcQIxjqAhgnwgITEAAYgAQYigUYQxjqAhi0AtgBAcICGRAuGIAEGIoFGEMYxwEY0QMY6gIYtALYAQHCAhUQABiABBiKBRhDGOoCGLQCGArYAQHCAhEQLhiABBixAxiDARjHARjRA8ICDhAAGIAEGIoFGLEDGIMBwgILEAAYgAQYsQMYgwHCAhAQLhiABBiKBRhDGMcBGNEDwgINEAAYgAQYigUYQxjJA5gDSYgGAZAGCroGBggBEAEYAZIHBTIuMC42oAfbNA&sclient=gws-wiz-serp",
+  },
+  {
+    id: 3,
+    name: "Technical Writing",
+    description:
+      "Creating clear, concise, and comprehensive technical documentation to aid developers, users, and other stakeholders in understanding and utilizing software systems.",
+    link: "https://www.google.com/search?q=technical+writing&oq=technical+w&gs_lcrp=EgZjaHJvbWUqDAgBECMYJxiABBiKBTIGCAAQRRg5MgwIARAjGCcYgAQYigUyDAgCEAAYQxiABBiKBTIHCAMQABiABDIHCAQQABiABDIGCAUQRRhBMgYIBhBFGEEyBggHEEUYQdIBCDYzODBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+  },
+];
 
 export const projects = [
   {
@@ -343,13 +391,5 @@ export const tools = [
   {
     title: "Visual Studio",
     image: visualstudio.src,
-  },
-];
-
-// about
-export const about = [
-  {
-    paragraph1:
-      "I believe in clearly defined roles, and i am fucking gonna project order and peace",
   },
 ];
