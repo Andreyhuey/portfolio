@@ -43,7 +43,7 @@ export const experience = [
     company: "OnestopRx",
     website: "https://www.onestoprx.ng",
     industry: "Healthcare & Technology",
-    time_spent: "MM/YYYY - Present",
+    time_spent: "04/2024 - Present",
     responsibilities: [
       "Implemented UI from Figma designs for telemedicine, EHR, and lab testing features in physician and admin dashboards.",
       "Optimized UI/UX for improved usability and accessibility.",
@@ -66,7 +66,7 @@ export const experience = [
     company: "Healthcare Organization",
     website: "https://www.healthcareorganization.com",
     industry: "Health Information Management",
-    time_spent: "MM/YYYY - MM/YYYY",
+    time_spent: "12/2022 - 04/2024",
     responsibilities: [
       "Ensured system functionality and supervised data entry management.",
       "Oversaw accurate and secure data enrollment for healthcare enrollees.",
