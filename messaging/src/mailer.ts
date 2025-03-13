@@ -37,8 +37,9 @@ export async function sendEmail(name: string, email: string, message: string) {
     await transporter.sendMail({
       from: `"Portfolio Contact Form" <${process.env.SMTP_USER}>`,
       to: process.env.TO_EMAIL,
-      subject: "New Contact Form Submission",
+      subject: "New message from Portfolio Contact Form",
       html: emailTemplate,
+      priority: "high",
     });
 
     console.log("Admin notification sent successfully!");
@@ -60,10 +61,12 @@ export async function sendEmail(name: string, email: string, message: string) {
 
     // Send confirmation email to the sender
     await transporter.sendMail({
+      replyTo: process.env.TO_EMAIL,
       from: `"Portfolio Contact Form" <${process.env.SMTP_USER}>`,
       to: email,
       subject: "We've received your message!",
       html: confirmationTemplate,
+      priority: "high",
     });
 
     console.log("Confirmation email sent to sender!");
