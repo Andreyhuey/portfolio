@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Form</title>
+</head>
+
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    <div class="bg-white p-6 rounded shadow-md w-96">
+        <h2 class="text-xl font-semibold mb-4">Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" class="w-full mb-2 p-2 border rounded" required>
+            <input type="email" id="email" placeholder="Your Email" class="w-full mb-2 p-2 border rounded" required>
+            <textarea id="message" placeholder="Your Message" class="w-full mb-2 p-2 border rounded"
+                required></textarea>
+            <button type="submit" class="w-full bg-blue-600 text-white p-2 rounded">Send</button>
+        </form>
+        <p id="responseMessage" class="mt-2 text-sm text-gray-600"></p>
+    </div>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+            const response = await fetch("/send", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ name, email, message })
+            });
+            const result = await response.json();
+            document.getElementById("responseMessage").innerText = result.message;
+        });
+    </script>
+</body>
+
+</html>
