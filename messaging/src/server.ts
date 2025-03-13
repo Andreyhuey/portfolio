@@ -27,11 +27,11 @@ const errorHandler = (
 };
 
 // Serve static files from the "public" directory
-app.use(express.static(path.join(__dirname, "../src/public")));
+app.use(express.static(path.join(__dirname, "public")));
 
 // Default route to serve the HTML file
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../src/public/index.html"));
+  res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 app.post("/send", async (req, res, next) => {
