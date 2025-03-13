@@ -5,17 +5,13 @@ import { projects } from "../constants/constants";
 
 import { Card } from ".";
 
-import { motion } from "framer-motion";
-
-import { fadeIn } from "../variants";
-
 export default function Work() {
   const [type, setType] = useState(0);
   const setProjectType = (index: number) => {
     setType(index);
   };
 
-  const projectTypes = ["All", "Front-End", "Fullstack", "DevTool"];
+  const projectTypes = ["All", "Front-End", "Fullstack"];
 
   return (
     <section className="section" id="work">
@@ -84,25 +80,6 @@ export default function Work() {
               <>
                 {projects
                   ?.filter((project) => project?.type?.includes("Fullstack"))
-                  .slice()
-                  .reverse()
-                  ?.map((project, index, array) => {
-                    const reversedIndex = array.length - 1 - index;
-                    return (
-                      <Card
-                        key={reversedIndex}
-                        project={project}
-                        index={reversedIndex}
-                      />
-                    );
-                  })}
-              </>
-            )}
-
-            {type === 3 && (
-              <>
-                {projects
-                  ?.filter((project) => project?.type?.includes("DevTool"))
                   .slice()
                   .reverse()
                   ?.map((project, index, array) => {

@@ -7,7 +7,7 @@ import { toast, ToastContainer } from "react-toastify";
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
 
-  function sendEmail(e: any) {
+  function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
     if (!form.current) return;
@@ -17,7 +17,7 @@ export default function Contact() {
         "service_yhzzl9v",
         "template_w1hornj",
         form.current,
-        "W7DratuiH2eK_miQV",
+        "W7DratuiH2eK_miQV"
       )
       .then(
         (result) => {
@@ -27,10 +27,10 @@ export default function Contact() {
         (error) => {
           console.log(error.text);
           toast.error(error.text);
-        },
+        }
       );
     setTimeout(function () {
-      e.target.reset();
+      (e.target as HTMLFormElement).reset();
     }, 4000);
   }
   return (

@@ -6,9 +6,7 @@ import analytics from "@/public/assets/analytics.png";
 import evobank from "@/public/assets/evobank-home.png";
 import medilifi from "@/public/assets/medilifi.png";
 import bookstore from "@/public/assets/bookstore.png";
-import mockapi from "@/public/assets/mock-api.png";
 import animevault from "@/public/assets/animevault.png";
-import whatchatbot from "@/public/assets/whatchatbot.png";
 
 // Website tools
 import html from "@/public/assets/tools/html.svg";
@@ -253,39 +251,39 @@ export const projects = [
   },
 ];
 
-const backendProjects = [
-  {
-    title: "Mock-Api",
-    description:
-      "A node.js based solution tailored for front-end developers seeking rapid and dependable mock API services. designed to bridge the gap between UI development and back-end readiness.",
-    image: mockapi.src,
-    tools: [
-      "node.js",
-      "fakerjs",
-      "fs",
-      "json-schema",
-      "json-schema-faker",
-      "json-server",
-    ],
-    type: ["API", "DevTool"],
-    tags: "Design to Code, API Integration",
-    source: "https://github.com/andreyhuey/mock-api",
-    visit: "https://github.com/andreyhuey/mock-api",
-    id: 7,
-  },
-  {
-    title: "Whatsapp Dictionary Chatbot",
-    description:
-      "A chatbot that can serve as your dictionary. Accessible to specific user on WhatsApp using the Twilio MessagingX WhatsApp API to send and receive messages.",
-    image: whatchatbot.src,
-    tools: ["python", "twilio", "vercel", "mongodb", "dictionary"],
-    type: ["API", "DevTool"],
-    tags: "Dev Journey, API Integration",
-    source: "https://github.com/Andreyhuey/whatsapp-dictionary-chatbot",
-    visit: "https://whatsapp-dictionary-chatbot.vercel.app/docs",
-    id: 10,
-  },
-];
+// const backendProjects = [
+//   {
+//     title: "Mock-Api",
+//     description:
+//       "A node.js based solution tailored for front-end developers seeking rapid and dependable mock API services. designed to bridge the gap between UI development and back-end readiness.",
+//     image: mockapi.src,
+//     tools: [
+//       "node.js",
+//       "fakerjs",
+//       "fs",
+//       "json-schema",
+//       "json-schema-faker",
+//       "json-server",
+//     ],
+//     type: ["API", "DevTool"],
+//     tags: "Design to Code, API Integration",
+//     source: "https://github.com/andreyhuey/mock-api",
+//     visit: "https://github.com/andreyhuey/mock-api",
+//     id: 7,
+//   },
+//   {
+//     title: "Whatsapp Dictionary Chatbot",
+//     description:
+//       "A chatbot that can serve as your dictionary. Accessible to specific user on WhatsApp using the Twilio MessagingX WhatsApp API to send and receive messages.",
+//     image: whatchatbot.src,
+//     tools: ["python", "twilio", "vercel", "mongodb", "dictionary"],
+//     type: ["API", "DevTool"],
+//     tags: "Dev Journey, API Integration",
+//     source: "https://github.com/Andreyhuey/whatsapp-dictionary-chatbot",
+//     visit: "https://whatsapp-dictionary-chatbot.vercel.app/docs",
+//     id: 10,
+//   },
+// ];
 
 // tool images
 export const tools = [

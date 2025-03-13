@@ -13,7 +13,7 @@ interface CardProps {
     description: string;
     image: string;
     tools: string[];
-    icons?: any[];
+    icons?: React.ReactNode[];
     tags: string;
     type: string[];
     source: string;

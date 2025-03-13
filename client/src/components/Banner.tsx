@@ -56,6 +56,7 @@ export default function Banner() {
               <a
                 href="https://www.linkedin.com/in/oluwadara-ola-obaado-64b5511b4/"
                 target="_blank"
+                rel="noreferrer"
                 className="cursor-pointer"
               >
                 <FaLinkedin className="text-5xl lg:text-4xl" />
@@ -63,6 +64,7 @@ export default function Banner() {
               <a
                 href="https://github.com/andreyhuey"
                 target="_blank"
+                rel="noreferrer"
                 className="cursor-pointer"
               >
                 <FaGithub className="text-5xl lg:text-4xl" />
@@ -70,6 +72,7 @@ export default function Banner() {
               <a
                 href="https://twitter.com/andreyhuey"
                 target="_blank"
+                rel="noreferrer"
                 className="cursor-pointer"
               >
                 <FaTwitter className="text-5xl lg:text-4xl" />
