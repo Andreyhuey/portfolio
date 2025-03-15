@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Ola-obaado Oluwadara's Portfolio",
-  icons: "public/assets/avatar.jpeg",
+  icons: "@/public/assets/avatar.jpeg",
   description: "Software Engineer",
   keywords: [
     "oluwadara",
