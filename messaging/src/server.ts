@@ -2,11 +2,12 @@ import express, { NextFunction, Request, Response } from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import bodyParser from "body-parser";
-import { sendEmail } from "./mailer.ts";
+import { sendEmail } from "./mailer";
 import path from "path";
 
 dotenv.config();
 const app = express();
+const port = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static("public"));
@@ -27,14 +28,14 @@ const errorHandler = (
 };
 
 // Serve static files from the "public" directory
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "./public")));
 
 // Default route to serve the HTML file
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public/index.html"));
+app.get("/", (req: Request, res: Response) => {
+  res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
-app.post("/send", async (req, res, next) => {
+app.post("/send", async (req: Request, res: Response, next: NextFunction) => {
   const { name, email, message } = req.body;
   try {
     await sendEmail(name, email, message);
@@ -55,4 +56,6 @@ process.on("unhandledRejection", (reason, promise) => {
   console.error("❌ Unhandled Rejection:", reason);
 });
 
-app.listen(3000, () => console.log("Server running on http://localhost:3000"));
+app.listen(port, () =>
+  console.log(`Server running on http://localhost:${port}`)
+);

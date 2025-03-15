@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-    "target": "ES6",
     "module": "CommonJS",
-    "strict": true,
     "esModuleInterop": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "allowImportingTsExtensions": true,
-    "noEmit": true
+    "allowSyntheticDefaultImports": true,
+    "target": "ES6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./src/public/*.html", "./src/templates/*.html"]
 }

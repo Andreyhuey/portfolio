@@ -1,10 +1,12 @@
 {
   "name": "messaging",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec ts-node src/server.ts"
+    "start": "npx nodemon src/server.ts",
+    "dev": "npx nodemon src/server.ts",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
