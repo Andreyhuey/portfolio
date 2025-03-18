@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     "portfolio",
     "frontend",
     "backend",
+    "architect",
   ],
   openGraph: {
     title: `Ola-obaado Oluwadara's Portfolio`,
