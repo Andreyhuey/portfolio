@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
