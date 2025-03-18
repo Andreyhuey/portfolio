@@ -7,9 +7,9 @@ export default function Header() {
       <div className="sm:container mx-auto">
         <div className="flex justify-between items-center">
           {/* logo */}
-          <a href="#">
+          <Link href="#">
             <h2 className="text-3xl">O.O</h2>
-          </a>
+          </Link>
           {/* button */}
           <Link
             href="https://www.canva.com/design/DAFidbClCEA/J4gIc-1S6VBPARWVS41iRw/edit?utm_content=DAFidbClCEA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"

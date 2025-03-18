@@ -5,7 +5,8 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 // variants
 import Image from "next/image";
-import { Link } from "react-scroll";
+import { Link as Linker } from "react-scroll";
+import Link from "next/link";
 
 export default function Banner() {
   return (
@@ -53,14 +54,14 @@ export default function Banner() {
 
             {/* socials */}
             <div className="flex max-w-max lg:text-[20px] gap-x-10 md:gap-x-8 mx-auto lg:mx-0 text-slate-300 ">
-              <a
+              <Link
                 href="https://www.linkedin.com/in/oluwadara-ola-obaado-64b5511b4/"
                 target="_blank"
                 rel="noreferrer"
                 className="cursor-pointer"
               >
                 <FaLinkedin className="text-5xl lg:text-4xl" />
-              </a>
+              </Link>
               <a
                 href="https://github.com/andreyhuey"
                 target="_blank"
@@ -80,10 +81,10 @@ export default function Banner() {
             </div>
             {/*buttons*/}
             <div className="flex max-w-max gap-x-6 items-center mx-auto lg:mx-0">
-              <Link to="contact" smooth={true} spy={true} offset={-200}>
+              <Linker to="contact" smooth={true} spy={true} offset={-200}>
                 <button className="btn btn-lg">Contact Me</button>
-              </Link>
-              <Link
+              </Linker>
+              <Linker
                 to="work"
                 smooth={true}
                 spy={true}
@@ -91,7 +92,7 @@ export default function Banner() {
                 className="text-gradient btn-link cursor-pointer"
               >
                 My Portfolio
-              </Link>
+              </Linker>
             </div>
           </div>
           {/* image */}
