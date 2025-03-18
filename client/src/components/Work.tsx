@@ -15,8 +15,8 @@ export default function Work() {
 
   return (
     <section className="section" id="work">
-      <div className="sm:container mx-auto">
-        <div className="">
+      <div className="sm:container mx-auto w-full">
+        <div className="w-full">
           <div className="flex flex-col items-center justify-center gap-y-10 text-center">
             {/* text */}
             <div>

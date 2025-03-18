@@ -35,6 +35,40 @@ import django from "@/public/assets/tools/django.svg";
 import typescript from "@/public/assets/tools/typescript.svg";
 import visualstudio from "@/public/assets/tools/visual-studio.svg";
 
+export const Education = [
+  {
+    name: "Federal University of Technology, Akure",
+    logo: "",
+    degree: "B.Tech. Information Technology",
+    time_spent: "2018 - 2024",
+    location: "Ondo, Nigeria",
+    description:
+      "I studied Information Technology at the Federal University of Technology, Akure. I took courses in software engineering, computer networks, database management, and information systems.",
+  },
+  {
+    name: "FreeCodeCamp",
+    logo: "",
+    certifications: [
+      {
+        name: "Responsive Web Design",
+        link: "https://www.freecodecamp.org/certification/andreyhuey/responsive-web-design",
+      },
+      {
+        name: "JavaScript Algorithms and Data Structures",
+        link: "https://www.freecodecamp.org/certification/andreyhuey/javascript-algorithms-and-data-structures",
+      },
+      {
+        name: "Front End Libraries",
+        link: "https://www.freecodecamp.org/certification/andreyhuey/front-end-libraries",
+      },
+      {
+        name: "Data Visualization",
+        link: "https://www.freecodecamp.org/certification/andreyhuey/data-visualization",
+      },
+    ],
+  },
+];
+
 export const experience = [
   {
     title: "Front-End Software Engineer",
@@ -248,6 +282,30 @@ export const projects = [
     source: "https://github.com/Andreyhuey/anime_vault",
     visit: "https://anime-vault-seven-mu.vercel.app/",
     id: 9,
+  },
+  {
+    title: "Video Conferencing App",
+    description:
+      "A real-time video conferencing app built using VideoSDK for seamless audio-video communication. Features include high-quality video calls, screen sharing, and chat functionality. Developed with React, JavaScript, and Tailwind CSS for a smooth and responsive user experience.",
+    image: "https://your-image-url.com/video-conferencing-app.jpg",
+    tools: ["React", "JavaScript", "Tailwind CSS", "VideoSDK"],
+    type: ["Front End", "API", "Fullstack"],
+    tags: "API Integration, WebRTC, Video Calling",
+    source: "https://github.com/Andreyhuey/samplevideocall",
+    visit: "https://samplevideocall.vercel.app/",
+    id: 10,
+  },
+  {
+    title: "Portfolio Contact Form",
+    description:
+      "An SMTP based mailing app for sending emails to multiple recipients. Built with Typescript, Node.js, Express, and Nodemailer for a secure and efficient mailing experience.",
+    image: "",
+    tools: ["Typescript, Node.js, Express, NodeMailer"],
+    type: ["Front End", "API", "Fullstack"],
+    tags: "API Integration, Email Sending",
+    source: "https://github.com/Andreyhuey/portfolio/tree/main/messaging",
+    visit: "https://messenger-pearl-ten.vercel.app/",
+    id: 11,
   },
 ];
 
