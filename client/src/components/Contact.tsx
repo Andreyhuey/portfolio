@@ -20,13 +20,11 @@ export default function Contact() {
         "W7DratuiH2eK_miQV"
       )
       .then(
-        (result) => {
-          console.log(result.text);
-          toast.success("message sent");
+        () => {
+          toast.success("Message sent successfully");
         },
-        (error) => {
-          console.log(error.text);
-          toast.error(error.text);
+        () => {
+          toast.error("Failed to send message. Please try again.");
         }
       );
     setTimeout(function () {
