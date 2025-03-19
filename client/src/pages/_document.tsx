@@ -1,31 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Ola-obaado Oluwadara's Portfolio",
-  icons: "@/public/assets/avatar.jpeg",
-  description: "Software Engineer",
-  keywords: [
-    "oluwadara",
-    "ola-obaado",
-    "obaado",
-    "dara",
-    "andreyhuey",
-    "andrey",
-    "software engineer",
-    "developer",
-    "problem solver",
-    "portfolio",
-    "frontend",
-    "backend",
-    "architect",
-  ],
-  openGraph: {
-    title: `Ola-obaado Oluwadara's Portfolio`,
-    description: "Software Engineer",
-    images: "@/public/assets/avatar.jpeg",
-  },
-};
 
 export default function Document() {
   return (
