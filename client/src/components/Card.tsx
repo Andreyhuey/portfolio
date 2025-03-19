@@ -55,11 +55,11 @@ const Card = ({ project, index }: CardProps) => {
 
         <div className="flex justify-between text-3xl">
           {source && (
-            <Link href={source} target="_blank">
+            <Link href={source} target="_blank" aria-label={title}>
               <FaGithub />
             </Link>
           )}
-          <Link href={visit} target="_blank">
+          <Link href={visit} target="_blank" aria-label={title}>
             <FaExternalLinkAlt />
           </Link>
         </div>

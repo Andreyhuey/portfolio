@@ -59,29 +59,38 @@ export default function Banner() {
                 target="_blank"
                 rel="noreferrer"
                 className="cursor-pointer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedin className="text-5xl lg:text-4xl" />
               </Link>
-              <a
+              <Link
                 href="https://github.com/andreyhuey"
                 target="_blank"
                 rel="noreferrer"
                 className="cursor-pointer"
+                aria-label="Github"
               >
                 <FaGithub className="text-5xl lg:text-4xl" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://twitter.com/andreyhuey"
                 target="_blank"
                 rel="noreferrer"
                 className="cursor-pointer"
+                aria-label="Twitter"
               >
                 <FaTwitter className="text-5xl lg:text-4xl" />
-              </a>
+              </Link>
             </div>
             {/*buttons*/}
             <div className="flex max-w-max gap-x-6 items-center mx-auto lg:mx-0">
-              <Linker to="contact" smooth={true} spy={true} offset={-200}>
+              <Linker
+                to="contact"
+                smooth={true}
+                spy={true}
+                offset={-200}
+                aria-label="Contact Me"
+              >
                 <button className="btn btn-lg">Contact Me</button>
               </Linker>
               <Linker
@@ -90,6 +99,7 @@ export default function Banner() {
                 spy={true}
                 offset={-200}
                 className="text-gradient btn-link cursor-pointer"
+                aria-label="My Portfolio"
               >
                 My Portfolio
               </Linker>
