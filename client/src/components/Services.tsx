@@ -55,6 +55,7 @@ export default function Services() {
                           href={link}
                           target="_blank"
                           className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
+                          aria-label={name}
                         >
                           <BsArrowUpRight />
                         </Link>
