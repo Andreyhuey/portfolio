@@ -4,7 +4,6 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { fadeIn } from "../variants";
-import { getScreenshotLink } from "../utils/screenshot_one";
 
 interface CardProps {
   project: {
@@ -17,12 +16,13 @@ interface CardProps {
     visit: string;
     figma?: string;
     id: number;
+    image: string;
   };
   index: number;
 }
 
 const Card = ({ project, index }: CardProps) => {
-  const { title, source, visit, tools } = project;
+  const { title, source, visit, tools, image } = project;
 
   return (
     <motion.div
@@ -35,8 +35,8 @@ const Card = ({ project, index }: CardProps) => {
       <div className="group-hover:bg-black/90 w-fit h-full absolute z-40 transition-all duration-300 group-hover:w-full"></div>
 
       <Image
-        src={getScreenshotLink(visit)}
-        alt={`${title} Screenshot`}
+        src={image}
+        alt={`${title} image`}
         width={500}
         height={300}
         className="w-full h-64 md:h-80 object-cover group-hover:scale-105 transition-all duration-500"
