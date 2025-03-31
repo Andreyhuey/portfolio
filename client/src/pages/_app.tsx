@@ -15,8 +15,11 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta property="og:title" content="Ola-obaado Oluwadara's Portfolio" />
         <meta property="og:description" content="Software Engineer" />
-        <meta property="og:image" content="/assets/avatar.jpeg" />
-        <link rel="icon" href="/assets/avatar.jpeg" />
+        <meta
+          property="og:image"
+          content="https://andreyhuey.github.io/portfolio/assets/avatar.jpeg"
+        />
+        <link rel="icon" href="/assets/avatar.jpeg" type="image/jpeg" />
       </Head>
       <Component {...pageProps} />
     </>
